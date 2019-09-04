@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+  cookbook-micro-users-db:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    container_name: cookbook-micro-auth-db
+    restart: always
+    ports:
+      - '3306:3306'
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-admin}
+      MYSQL_DATABASE: ${MYSQL_DB:-micro_auth}
+      MYSQL_USER: ${MYSQL_USER:-admin}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-admin}
+    volumes:
+      - micro-auth-mysql:/var/lib/mysql
+    networks:
+      - hub
+
+volumes:
+  micro-auth-mysql:
+
+networks:
+  hub:
+    driver: 'bridge'

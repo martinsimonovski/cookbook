@@ -1,0 +1,14 @@
+{
+  "name": "cookbook",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:utils": "lerna run build --scope=@cookbook/common",
+    "boot": "lerna clean -y && rm -rf node_modules && lerna bootstrap && yarn build:utils"
+  }
+}

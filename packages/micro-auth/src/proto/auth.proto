@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package auth;
+
+import "google/protobuf/empty.proto";
+
+service AuthService {
+    rpc Register(User) returns (Response) {}
+    rpc Login(User) returns (Response) {}
+}
+
+enum Role {
+  MEMBER = 0;
+  MODERATOR = 1;
+  ADMIN = 2;
+}
+
+message User {
+  string id = 1;
+  string username = 2;
+  string email = 3;
+  string password = 4;
+  string confirmPassword = 5;
+  Role role = 6;
+}
+
+message UserRole {
+  Role role = 1;
+}
+
+message ListUsersRequest {}
+
+message Response {
+  string action = 1;
+  int32 status = 2;
+  string message = 3;
+  User data = 4;
+}
+
+message Empty {}

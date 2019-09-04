@@ -1,0 +1,19 @@
+{
+  "name": "@cookbook/common",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf && tsc"
+  },
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.1",
+    "@nestjs/common": "^6.6.4",
+    "grpc": "^1.23.3",
+    "util": "^0.12.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.2"
+  }
+}
