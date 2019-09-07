@@ -5,9 +5,10 @@
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es2017",
+    "target": "es6",
     "sourceMap": true,
     "outDir": "./dist",
+    "rootDir": "./src/",
     "baseUrl": "./",
     "incremental": true
   },

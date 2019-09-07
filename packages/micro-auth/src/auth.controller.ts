@@ -1,8 +1,10 @@
-import { Controller, Logger } from '@nestjs/common';
+import { Controller, Logger, UseFilters } from '@nestjs/common';
 import { GrpcMethod } from '@nestjs/microservices';
-import { formatGrpcResponse } from './lib/formatGrpsResponse';
+import { formatGrpcResponse } from './lib/responses/formatGrpsResponse';
 import { AuthService } from './auth.service';
 import { User } from './entities';
+import { ExceptionFilter } from './lib/filters/grpcException.filter';
+import * as grpc from 'grpc';
 
 @Controller()
 export class AuthController {
@@ -10,30 +12,10 @@ export class AuthController {
 
     constructor(private readonly authService: AuthService) { }
 
+    @UseFilters(new ExceptionFilter())
     @GrpcMethod('AuthService', 'Register')
-    register(data: User, metadata: any) {
-        this.logger.log('===>>> ', JSON.stringify({ data, metadata }));
+    register(data: User, metadata: grpc.Metadata) {
         const serviceFn = this.authService.register.bind(this.authService);
         return formatGrpcResponse(serviceFn, [data]);
-
-        // return this.authService.register(data).then(response => {
-        //     this.logger.log('===>>> Response', JSON.stringify(response));
-        //     return {
-        //         status: true,
-        //         action: 'bla bla',
-        //         data: { ...response },
-        //         message: 'this is a test 3'
-        //     }
-        // }, error => {
-        //     return {
-        //         status: false,
-        //         action: 'bla bla',
-        //         data: {},
-        //         message: 'Some error has happened'
-        //     }
-        // });
-
-        // const serviceFn = this.authService.register.bind(this.authService);
-        // return formatGrpcResponse(serviceFn, [authCredentialsDto]);
     }
 }

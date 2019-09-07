@@ -4,7 +4,8 @@ import { Transport } from '@nestjs/microservices';
 import { AuthModule } from './auth.module';
 import { GrpcOptions } from '@nestjs/common/interfaces/microservices/microservice-configuration.interface';
 import { join } from 'path';
-import { ValidationPipe } from '@nestjs/common';
+import { ValidationPipe } from './lib/pipes/validation.pipe';
+// import 
 
 const logger = new Logger('Main');
 
