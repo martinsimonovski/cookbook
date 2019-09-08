@@ -12,9 +12,10 @@ export const isError = (exception: any): exception is Error => {
 @Catch()
 export class ExceptionFilter<T = any, R = any>
     implements RpcExceptionFilter<T> {
-    private static readonly logger = new Logger('RpcExceptionsHandler');
+    private readonly logger = new Logger('RpcExceptionsHandler');
 
     catch(exception: T, host: ArgumentsHost): Observable<any> {
+        this.logger.log('something happened');
         if (exception instanceof RpcException) {
             const res = exception.getError();
             const message = isObject(res) ? res : { status, message: res };
@@ -30,8 +31,8 @@ export class ExceptionFilter<T = any, R = any>
         const loggerArgs = isError(exception)
             ? [exception.message, exception.stack]
             : [exception];
-        const logger = ExceptionFilter.logger;
-        logger.error.apply(logger, loggerArgs as any);
+        // const logger = ExceptionFilter.logger;
+        // logger.error.apply(logger, loggerArgs as any);
         return throwError({ status, message: errorMessage });
     }
 }

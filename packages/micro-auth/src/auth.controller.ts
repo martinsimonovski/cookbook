@@ -5,6 +5,7 @@ import { AuthService } from './auth.service';
 import { User } from './entities';
 import { ExceptionFilter } from './lib/filters/grpcException.filter';
 import * as grpc from 'grpc';
+import { GrpcUnkownError } from './lib';
 
 @Controller()
 export class AuthController {
@@ -14,8 +15,12 @@ export class AuthController {
 
     @UseFilters(new ExceptionFilter())
     @GrpcMethod('AuthService', 'Register')
-    register(data: User, metadata: grpc.Metadata) {
-        const serviceFn = this.authService.register.bind(this.authService);
-        return formatGrpcResponse(serviceFn, [data]);
+    async register(data: User, metadata: grpc.Metadata) {
+        const newUser = await this.authService.createNewUser(data).then(response => {
+            return response;
+        });
+        await this.authService.createEmailToken(newUser.email);
+
+        return newUser;
     }
 }
