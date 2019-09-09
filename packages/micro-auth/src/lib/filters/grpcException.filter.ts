@@ -15,7 +15,7 @@ export class ExceptionFilter<T = any, R = any>
     private readonly logger = new Logger('RpcExceptionsHandler');
 
     catch(exception: T, host: ArgumentsHost): Observable<any> {
-        this.logger.log('something happened');
+        this.logger.log(exception, 'something happened');
         if (exception instanceof RpcException) {
             const res = exception.getError();
             const message = isObject(res) ? res : { status, message: res };

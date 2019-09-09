@@ -22,3 +22,10 @@ export const formatGrpcResponse = async <P extends unknown[], R>(
 
     return { status, data };
 };
+
+
+export const grpcResponse = (data) => {
+    const logger = new Logger('GrpcResponse');
+    let status: grpcStatus = grpcStatus.OK;
+    return { status, data }
+}

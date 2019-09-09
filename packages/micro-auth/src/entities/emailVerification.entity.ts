@@ -10,8 +10,8 @@ interface IEmailVerification {
 
 @Entity()
 export class EmailVerification implements IEmailVerification {
-    @PrimaryGeneratedColumn()
-    id?: string;
+    @PrimaryGeneratedColumn('uuid')
+    id: string;
 
     @Column({
         unique: true
@@ -26,7 +26,7 @@ export class EmailVerification implements IEmailVerification {
     timestamp: Date;
 
     constructor(ev: IEmailVerification = {
-        id: "",
+        id: null,
         email: "",
         emailToken: '',
         timestamp: new Date()

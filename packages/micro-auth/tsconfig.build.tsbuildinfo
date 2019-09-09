@@ -1446,8 +1446,8 @@
         "signature": "2f693591fd9efb2ba29f0348a27a74ab4e519c5d71069eb1c8a3be59970c39c0"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/lib/responses/formatGrpsResponse.ts": {
-        "version": "5e75ec018c52a5940aad1a9ee98fb34f8d913ead6cc9d44e8c454776d2124277",
-        "signature": "1e1f3b65659cfce6e2b01a92ddf51c12305a162384bb304c0aaa424ef6faf1d7"
+        "version": "2ce2d44c3b82576bae5cb267c4da46157e7c11b012263c84b5e240e0a555512c",
+        "signature": "18891dab8b975f66d8b6f15a25437fcd8d17447cafad746b267cb5a0475f2e2b"
       },
       "/home/martin/projects/cookbook/node_modules/typeorm/schema-builder/options/TableColumnOptions.d.ts": {
         "version": "37350aa03991dfad308444531443272a47140d86cb0b0777832d21c62856ebd9",
@@ -2566,16 +2566,20 @@
         "signature": "70aecfd981af29d74ba7ab6667b9cc2a53459d8eb099c139fd2aa54c3059c71d"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/entities/user.entity.ts": {
-        "version": "93118256bccc5e9b1d231206fab7d0b4c122190fa18df8141e70fffa1a195eae",
+        "version": "cd7810fc4896cb22cd1f1cba85918cdb2a935789f6f40c349022ae7ca809ef5b",
         "signature": "919c3963b37cf69ebddb94c9cf6bf96eb8f3df2e84a2330c4ee78b459081863d"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/entities/emailVerification.entity.ts": {
-        "version": "0f2fe08540ec02e378d4cdfa1a0674947a4e445e3f7669e129e904a022872a48",
-        "signature": "497421efa628ff04ab194f8867d331f6302ab10fcabbd779ee764138bbe67756"
+        "version": "55b46330848388619fbb998f845ef63378190ae7f196d7364b1871378a8b3a95",
+        "signature": "3d715b42989b110f22d00f22069956ea2ce93ff353f22a1f3e3e45aaf120a8ea"
+      },
+      "/home/martin/projects/cookbook/packages/micro-auth/src/entities/consentRegistry.entity.ts": {
+        "version": "b87bef974db9eb5445e05550a73092f04ad840a2e883c156b41843cfe8d838f0",
+        "signature": "8dad28eceda2aee92b6402651e669a8f67f0d2b9ea08d52f5f3b3b5f93c22263"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/entities/index.ts": {
-        "version": "a93558ab3c4aaece69a8d6e14ed29a31c4a2605a08fbc8ba3877b9b5518f13ae",
-        "signature": "e551eac5fd933b271a04eca92decf4710925277ca6dfbdf57c116739e154e783"
+        "version": "6504842921d88dbb8ad685ecf1be7a3b1593314f62613d24aa0bdbae2cd0b972",
+        "signature": "ccb4655868f72cba085f8e5640376f89caeacdd0eaec82f57452bf91e870dab5"
       },
       "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformOptions.d.ts": {
         "version": "d89af0c250e1424959162beae79f2c2745c729d6ab8028503d322395d96d3a2b",
@@ -2610,7 +2614,7 @@
         "signature": "cbdfc66c6896c8f5e02d962d35c491e8930a8d3482b235888433f7d2b7a7bc00"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/lib/filters/grpcException.filter.ts": {
-        "version": "ecc6c453bab011ae87d919fab01bd44bae6792e68aa42489d6832613a2c9b9ba",
+        "version": "8b81517a9672d26b02dec05156f86970af81e43da3e4adbf46f515fa26ee91a4",
         "signature": "37d4f8cd5c55eade27c9c18053056dc7ef196c5f7af3b28c2e0534d81916e54c"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/lib/index.ts": {
@@ -2618,15 +2622,15 @@
         "signature": "89587f66c9c60c2ad22c6237210c9618e12c375070262edf9441f95f42574f22"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.service.ts": {
-        "version": "baa495f0803c639556122005df783ec67a1878493efccb018c49e9f8b5d543a5",
-        "signature": "a3f9843e3183e7757c84996b371528cb01f791f4c758d7229e420bddf666f18c"
+        "version": "b8bd12a8a5707a25ef53100b22f6f2f05240c8b16b1e2e5d221da8bd8c5c2a2f",
+        "signature": "55af1172de471d0950cee05862bc0f321b504c8813d641468a25a33f77b3d053"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.controller.ts": {
-        "version": "45e62a2ad76cc9a661653d5fc6bed40735b08539bf3c1b1379a2f4fbf0e2e79a",
-        "signature": "fa0e600b560cf01b302bf53b1309a656a76e2f0c9543a578c054d6aaff8329f3"
+        "version": "9dad93d2ca3da2f77398789eec3ec959af185dd7cf244023ea5101bdd75868fd",
+        "signature": "c73b8c43a21658f4d346c805f9420baa8bdad4b65036b0f505c890b78a0e3ca8"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.module.ts": {
-        "version": "0cac706f73c4fab8684c62dfdf6f669d644e77949d8871bae60bd42324416a8a",
+        "version": "4b8d2f3d2abc3a886807910b38f906b1d8b9becb403102c39d1c25c1ea1cdb40",
         "signature": "a28b5c0c372fb375910b3fe3c3ce4331509bc18ccef7cc39c9ee9d8daf8225d1"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/main.ts": {
@@ -6885,9 +6889,15 @@
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/home/martin/projects/cookbook/packages/micro-auth/src/entities/consentRegistry.entity.ts": [
+        "/home/martin/projects/cookbook/node_modules/typeorm/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/home/martin/projects/cookbook/packages/micro-auth/src/entities/index.ts": [
         "/home/martin/projects/cookbook/packages/micro-auth/src/entities/user.entity.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/src/entities/emailVerification.entity.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/src/entities/consentRegistry.entity.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -9389,7 +9399,8 @@
         "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts"
       ],
       "/home/martin/projects/cookbook/packages/micro-auth/src/lib/responses/formatGrpsResponse.ts": [
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/types.ts"
+        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/types.ts",
+        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts"
       ],
       "/home/martin/projects/cookbook/node_modules/typeorm/schema-builder/options/TableColumnOptions.d.ts": [
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
@@ -11264,7 +11275,8 @@
       ],
       "/home/martin/projects/cookbook/packages/micro-auth/src/entities/index.ts": [
         "/home/martin/projects/cookbook/packages/micro-auth/src/entities/user.entity.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/entities/emailVerification.entity.ts"
+        "/home/martin/projects/cookbook/packages/micro-auth/src/entities/emailVerification.entity.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/src/entities/consentRegistry.entity.ts"
       ],
       "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformOptions.d.ts": [
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
@@ -12158,6 +12170,7 @@
       "/home/martin/projects/cookbook/node_modules/class-validator/index.d.ts",
       "/home/martin/projects/cookbook/packages/micro-auth/src/entities/user.entity.ts",
       "/home/martin/projects/cookbook/packages/micro-auth/src/entities/emailVerification.entity.ts",
+      "/home/martin/projects/cookbook/packages/micro-auth/src/entities/consentRegistry.entity.ts",
       "/home/martin/projects/cookbook/packages/micro-auth/src/entities/index.ts",
       "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformOptions.d.ts",
       "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformer.d.ts",

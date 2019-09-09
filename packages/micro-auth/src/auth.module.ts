@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { AuthController } from './auth.controller';
 import { AuthService } from './auth.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { User, EmailVerification } from './entities';
+import { User, EmailVerification, ConsentRegistry } from './entities';
 
 @Module({
     imports: [
@@ -16,7 +16,7 @@ import { User, EmailVerification } from './entities';
             entities: [__dirname + '/**/*.entity{.ts,.js}'],
             synchronize: true,
         }),
-        TypeOrmModule.forFeature([User, EmailVerification])
+        TypeOrmModule.forFeature([User, EmailVerification, ConsentRegistry])
     ],
     controllers: [AuthController],
     providers: [AuthService],

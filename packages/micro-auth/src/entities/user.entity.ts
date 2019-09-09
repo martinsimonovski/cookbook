@@ -39,7 +39,7 @@ export class User {
     role: number;
 
     constructor(user: IUser = {
-        id: "",
+        id: null,
         username: "",
         password: "",
         email: "",
