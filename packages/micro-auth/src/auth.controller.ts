@@ -19,13 +19,16 @@ export class AuthController {
         const user = await this.authService.createNewUser(data).then(res => res);
         await this.authService.createEmailToken(user.email);
         await this.authService.saveUserConsent(user.email);
-        // let sent = this.authService.sendEmailVerification(user.email).then(res => res);
-        // if (sent) {
-        //     return user;
-        // } else {
-        //     throw new GrpcInternalError('Email problem');
-        // }
+        let sent = await this.authService.sendEmailVerification(user.email).then(res => {
+            console.warn({ res })
+        });
 
-        return grpcResponse(user);
+        if (true) {
+            return grpcResponse(user);
+        } else {
+            throw new GrpcInternalError('Email problem');
+        }
+
+
     }
 }

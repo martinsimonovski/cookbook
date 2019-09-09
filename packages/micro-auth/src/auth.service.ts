@@ -3,7 +3,8 @@ import { Repository, getRepository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import * as cryptoRandomString from 'crypto-random-string';
 import { User, EmailVerification, ConsentRegistry } from './entities';
-import { GrpcAlreadyExistError, ExceptionFilter, GrpcCanceledError, GrpcAbortedError } from './lib';
+import { GrpcAlreadyExistError, ExceptionFilter, GrpcCanceledError, GrpcAbortedError, GrpcInternalError } from './lib';
+import * as nodemailer from 'nodemailer';
 
 @Injectable()
 export class AuthService {
@@ -84,11 +85,45 @@ export class AuthService {
     }
 
     public async sendEmailVerification(email: string): Promise<boolean> {
-        let emailVer = await this.emailVerificationRepository.findOne({ email: email }).then(r => r);
-        if (emailVer && emailVer.emailToken) {
+        let ev = await this.emailVerificationRepository.findOne({ email: email }).then(r => r);
 
+        let config = {
+            mail: {
+                user: 'martinsimonovskidev',
+                password: 'letsdevelop'
+            }
+        };
+
+        if (ev && ev.emailToken) {
+            let transporter = nodemailer.createTransport(
+                `smtps://${config.mail.user}@gmail.com:${config.mail.password}@smtp.gmail.com`
+            );
+
+            let mailOptions = {
+                from: '"Company" <' + config.mail.user + '>',
+                to: email,
+                subject: 'Verify Email',
+                text: 'Verify Email',
+                html: 'Hi! <br><br> Thanks for your registration<br><br>' +
+                    '<a href="http://localhost:3000/auth/email/verify/' + ev.emailToken + '>Click here to activate your account</a>'  // html body
+            };
+
+            try {
+                let sent = await new Promise<boolean>(async function (resolve, reject) {
+                    return await transporter.sendMail(mailOptions, async (error, info) => {
+                        if (error) {
+                            throw new GrpcInternalError('There was an error while sending confirmation email');
+                        }
+                        return resolve(true);
+                    });
+                })
+                return sent;
+            } catch (e) {
+                throw new GrpcInternalError('There was an error while sending confirmation email');
+            }
         }
-        return true;
+
+        return false;
     }
 
     private emailVerificationIsFresh(time: number): Boolean {
