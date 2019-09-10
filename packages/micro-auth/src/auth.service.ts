@@ -5,6 +5,7 @@ import * as cryptoRandomString from 'crypto-random-string';
 import { User, EmailVerification, ConsentRegistry } from './entities';
 import { GrpcAlreadyExistError, ExceptionFilter, GrpcCanceledError, GrpcAbortedError, GrpcInternalError } from './lib';
 import * as nodemailer from 'nodemailer';
+import * as doetnv from 'dotenv';
 
 @Injectable()
 export class AuthService {
@@ -86,21 +87,23 @@ export class AuthService {
 
     public async sendEmailVerification(email: string): Promise<boolean> {
         let ev = await this.emailVerificationRepository.findOne({ email: email }).then(r => r);
-
-        let config = {
-            mail: {
-                user: 'martinsimonovskidev',
-                password: 'letsdevelop'
-            }
-        };
+        let config = doetnv.config();
+        config = config.parsed;
 
         if (ev && ev.emailToken) {
             let transporter = nodemailer.createTransport(
-                `smtps://${config.mail.user}@gmail.com:${config.mail.password}@smtp.gmail.com`
+                {
+                    host: config.SMTP_HOST,
+                    port: config.SMTP_PORT,
+                    auth: {
+                        user: config.SMTP_USERNAME,
+                        pass: config.SMTP_PASSWORD
+                    }
+                }
             );
 
             let mailOptions = {
-                from: '"Company" <' + config.mail.user + '>',
+                from: '"Company" <Lets Develop>',
                 to: email,
                 subject: 'Verify Email',
                 text: 'Verify Email',

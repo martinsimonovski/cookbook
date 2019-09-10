@@ -2622,7 +2622,7 @@
         "signature": "89587f66c9c60c2ad22c6237210c9618e12c375070262edf9441f95f42574f22"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.service.ts": {
-        "version": "6468a81cee9f9c0af489433ab39d2875cec2d43b5899914144b55562ac84c7d6",
+        "version": "de030a684e74056fed6bc921164ecd76515b2f35ce351be6fdaa8f0078dc4de3",
         "signature": "55af1172de471d0950cee05862bc0f321b504c8813d641468a25a33f77b3d053"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.controller.ts": {
