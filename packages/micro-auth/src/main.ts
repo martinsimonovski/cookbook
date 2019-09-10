@@ -1,8 +1,8 @@
 import { NestFactory } from '@nestjs/core';
 import { Transport, GrpcOptions } from '@nestjs/microservices';
 import { join } from 'path';
+import { ValidationPipe } from '@cookbook/common/dist/src/pipes/validation.pipe';
 import { AuthModule } from './auth.module';
-import { ValidationPipe } from './lib/pipes/validation.pipe';
 
 export const grpcClientOptions: GrpcOptions = {
   transport: Transport.GRPC,

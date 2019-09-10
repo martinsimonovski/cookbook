@@ -1,7 +1,8 @@
 import { Injectable } from '@nestjs/common';
-import { Email } from './app.controller';
 import * as nodemailer from 'nodemailer';
 import * as dotenv from 'dotenv';
+import { GrpcInternalError } from '@cookbook/common/dist/src/utils/GrpcErrors';
+import { Email } from './app.controller';
 
 @Injectable()
 export class AppService {
@@ -28,16 +29,14 @@ export class AppService {
       let sent = await new Promise<boolean>(async (resolve, reject) => {
         return await this.transporter.sendMail(email, async (error, info) => {
           if (error) {
-            console.warn('ERRRORRRR', JSON.stringify(error));
-            // throw new GrpcInternalError('There was an error while sending confirmation email');
+            reject(error);
           }
           return resolve(true);
         });
       })
       return sent;
     } catch (e) {
-      console.warn('Catch ERRRORRRR', JSON.stringify(e));
-      // throw new GrpcInternalError('There was an error while sending confirmation email');
+      throw new GrpcInternalError('There was an error while sending confirmation email', e);
     }
   }
 }

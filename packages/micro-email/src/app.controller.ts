@@ -1,7 +1,10 @@
-import { Controller, Get } from '@nestjs/common';
-import { AppService } from './app.service';
+import { Controller, Get, UseFilters } from '@nestjs/common';
 import { GrpcMethod } from '@nestjs/microservices';
 import * as grpc from 'grpc';
+import { grpcResponse } from '@cookbook/common/dist/src/responses/formatGrpsResponse';
+import { GrpcInternalError } from '@cookbook/common/dist/src/utils/GrpcErrors';
+import { ExceptionFilter } from '@cookbook/common/dist/src/filters/grpcException.filter';
+import { AppService } from './app.service';
 
 export interface Email {
   from: string;
@@ -15,23 +18,15 @@ export interface Email {
 export class AppController {
   constructor(private readonly appService: AppService) { }
 
+  @UseFilters(new ExceptionFilter())
   @GrpcMethod('EmailService', 'Send')
   async send(data: Email, metadata: grpc.Metadata) {
     let sent = await this.appService.sendEmail(data).then(res => res);
-    console.warn({ sent })
-    // const user = await this.authService.createNewUser(data).then(res => res);
-    // await this.authService.createEmailToken(user.email);
-    // await this.authService.saveUserConsent(user.email);
-    // let sent = await this.authService.sendEmailVerification(user.email).then(res => {
-    //   console.warn({ res })
-    // });
 
-    // if (true) {
-    //   return grpcResponse(user);
-    // } else {
-    //   throw new GrpcInternalError('Email problem');
-    // }
-
-
+    if (sent) {
+      return grpcResponse(sent);
+    } else {
+      throw new GrpcInternalError('Email problem');
+    }
   }
 }

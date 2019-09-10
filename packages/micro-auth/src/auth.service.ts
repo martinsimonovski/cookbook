@@ -1,11 +1,11 @@
-import { Injectable, Logger, UseFilters } from '@nestjs/common';
+import { Injectable, Logger } from '@nestjs/common';
 import { Repository, getRepository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import * as cryptoRandomString from 'crypto-random-string';
-import { User, EmailVerification, ConsentRegistry } from './entities';
-import { GrpcAlreadyExistError, ExceptionFilter, GrpcCanceledError, GrpcAbortedError, GrpcInternalError } from './lib';
 import * as nodemailer from 'nodemailer';
 import * as doetnv from 'dotenv';
+import { GrpcAlreadyExistError, GrpcAbortedError, GrpcInternalError } from '@cookbook/common/dist/src/utils/GrpcErrors';
+import { User, EmailVerification, ConsentRegistry } from './entities';
 
 @Injectable()
 export class AuthService {

@@ -13,7 +13,7 @@ import { GrpcCanceledError } from '../utils/GrpcErrors';
 export class ValidationPipe implements PipeTransform<any> {
     private logger = new Logger('ValidationPipe');
 
-    async transform(value, metadata: ArgumentMetadata) {
+    async transform(value: any, metadata: ArgumentMetadata) {
         this.logger.log(JSON.stringify({ value, metadata }), 'Transform: ');
         if (!value) {
             throw new GrpcCanceledError('Validation Error: No data submited');
@@ -32,9 +32,9 @@ export class ValidationPipe implements PipeTransform<any> {
         return value;
     }
 
-    private buildError(errors) {
-        const result = {};
-        errors.forEach(el => {
+    private buildError(errors: any) {
+        const result: any = {};
+        errors.forEach((el: any) => {
             const prop = el.property;
             result[prop] = {};
             Object.entries(el.constraints).forEach(constraint => {
@@ -44,7 +44,7 @@ export class ValidationPipe implements PipeTransform<any> {
         return result;
     }
 
-    private toValidate(metatype): boolean {
+    private toValidate(metatype: any): boolean {
         this.logger.log(JSON.stringify({ metatype }), 'toValidate: ');
         const types = [String, Boolean, Number, Array, Object];
         return !types.find(type => metatype === type);

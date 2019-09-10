@@ -2626,7 +2626,7 @@
         "signature": "55af1172de471d0950cee05862bc0f321b504c8813d641468a25a33f77b3d053"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.controller.ts": {
-        "version": "fdba10ef9bb26cb15c84fed9ae8339e47080db1cb5a39c2f274396b51ff3aea9",
+        "version": "b49dd20574051a10e1946a8ce8b8c35ccaa3e089340ab0012689ded7a375e812",
         "signature": "c73b8c43a21658f4d346c805f9420baa8bdad4b65036b0f505c890b78a0e3ca8"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.module.ts": {
@@ -2634,8 +2634,8 @@
         "signature": "a28b5c0c372fb375910b3fe3c3ce4331509bc18ccef7cc39c9ee9d8daf8225d1"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/main.ts": {
-        "version": "1944a8817e85e8f7d279383082f689bb324ddf6df7053e6e72a599c1c7fec53f",
-        "signature": "f40bfc5d0bad9f6efe3eb833c24c3a4e2b979e8cddf0e5e216574466c7ca2260"
+        "version": "a14d736a19d3512d860a3b35a600ec6153073a296c3082da0bab940c1f53f292",
+        "signature": "0e63c577b4b9d87162f693ac6d621b937aa8f20138786fa34fca095cf9e468f9"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/lib/responses/formatHttpResponse.ts": {
         "version": "eea8c2a145e56ad155acfbf339348af3f5fcab9ff9644955ea6ac549908e3e8a",
@@ -2791,7 +2791,6 @@
       "baseUrl": "/home/martin/projects/cookbook/packages/micro-auth/",
       "incremental": true,
       "project": "tsconfig.build.json",
-      "watch": true,
       "configFilePath": "/home/martin/projects/cookbook/packages/micro-auth/tsconfig.build.json"
     },
     "referencedMap": {
@@ -7000,11 +6999,9 @@
       ],
       "/home/martin/projects/cookbook/packages/micro-auth/src/main.ts": [
         "/home/martin/projects/cookbook/node_modules/@nestjs/core/index.d.ts",
-        "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/@nestjs/microservices/index.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/auth.module.ts",
-        "/home/martin/projects/cookbook/node_modules/@nestjs/common/interfaces/microservices/microservice-configuration.interface.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/path.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/src/auth.module.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/src/lib/pipes/validation.pipe.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
@@ -11341,7 +11338,7 @@
         "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts"
       ],
       "/home/martin/projects/cookbook/packages/micro-auth/src/main.ts": [
-        "/home/martin/projects/cookbook/node_modules/@nestjs/common/interfaces/microservices/microservice-configuration.interface.d.ts"
+        "/home/martin/projects/cookbook/node_modules/@nestjs/microservices/index.d.ts"
       ],
       "/home/martin/projects/cookbook/node_modules/@types/range-parser/index.d.ts": [
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",

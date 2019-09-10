@@ -1,5 +1,4 @@
 import { status } from 'grpc';
-import { isObject, isString } from '@nestjs/common/utils/shared.utils';
 
 export interface IGrpcError {
     status: status;
@@ -19,7 +18,7 @@ export class GrpcError implements IGrpcError {
     ) {
         this.status = code;
         this.message = msg;
-        this.error = errorData ? Buffer.from(JSON.stringify(errorData)) : null;
+        this.error = errorData ? Buffer.from(JSON.stringify(errorData)) : {};
     }
 
     getError() {
