@@ -5,7 +5,7 @@ import { AuthService } from './auth.service';
 import { User } from './entities';
 import { ExceptionFilter } from './lib/filters/grpcException.filter';
 import * as grpc from 'grpc';
-import { GrpcUnkownError, GrpcInternalError } from './lib';
+import { GrpcInternalError } from './lib';
 
 @Controller()
 export class AuthController {
@@ -21,9 +21,10 @@ export class AuthController {
         await this.authService.saveUserConsent(user.email);
         let sent = await this.authService.sendEmailVerification(user.email).then(res => {
             console.warn({ res })
+            return res;
         });
 
-        if (true) {
+        if (sent) {
             return grpcResponse(user);
         } else {
             throw new GrpcInternalError('Email problem');

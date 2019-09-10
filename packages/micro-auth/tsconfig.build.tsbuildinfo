@@ -2634,7 +2634,7 @@
         "signature": "a28b5c0c372fb375910b3fe3c3ce4331509bc18ccef7cc39c9ee9d8daf8225d1"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/main.ts": {
-        "version": "de2d27fbd8935dfaeb2c640d28335b618ac25b956eaa22874964403b48d39365",
+        "version": "1944a8817e85e8f7d279383082f689bb324ddf6df7053e6e72a599c1c7fec53f",
         "signature": "f40bfc5d0bad9f6efe3eb833c24c3a4e2b979e8cddf0e5e216574466c7ca2260"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/lib/responses/formatHttpResponse.ts": {
@@ -12182,6 +12182,7 @@
       "/home/martin/projects/cookbook/packages/micro-auth/src/lib/pipes/validation.pipe.ts",
       "/home/martin/projects/cookbook/packages/micro-auth/src/lib/filters/grpcException.filter.ts",
       "/home/martin/projects/cookbook/packages/micro-auth/src/lib/index.ts",
+      "/home/martin/projects/cookbook/packages/micro-auth/src/auth.service.ts",
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.controller.ts",
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.module.ts",
       "/home/martin/projects/cookbook/packages/micro-auth/src/main.ts",
@@ -12219,8 +12220,7 @@
       "/home/martin/projects/cookbook/node_modules/@types/superagent/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/supertest/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/yargs-parser/index.d.ts",
-      "/home/martin/projects/cookbook/node_modules/@types/yargs/index.d.ts",
-      "/home/martin/projects/cookbook/packages/micro-auth/src/auth.service.ts"
+      "/home/martin/projects/cookbook/node_modules/@types/yargs/index.d.ts"
     ]
   },
   "version": "3.4.3"
