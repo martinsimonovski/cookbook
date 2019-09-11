@@ -21,7 +21,7 @@ export class AppController {
   @UseFilters(new ExceptionFilter())
   @GrpcMethod('EmailService', 'Send')
   async send(data: Email, metadata: grpc.Metadata) {
-    let sent = await this.appService.sendEmail(data).then(res => res);
+    let sent = await this.appService.write(data).then(res => res);
 
     if (sent) {
       return grpcResponse(sent);

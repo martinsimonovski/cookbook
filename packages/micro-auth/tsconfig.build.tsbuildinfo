@@ -12027,6 +12027,8 @@
       "/home/martin/projects/cookbook/packages/micro-auth/src/entities/consentRegistry.entity.ts",
       "/home/martin/projects/cookbook/packages/micro-auth/src/entities/index.ts",
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.service.ts",
+      "/home/martin/projects/cookbook/packages/micro-auth/src/auth.controller.ts",
+      "/home/martin/projects/cookbook/packages/micro-auth/src/auth.module.ts",
       "/home/martin/projects/cookbook/packages/common/dist/src/pipes/validation.pipe.d.ts",
       "/home/martin/projects/cookbook/packages/micro-auth/src/main.ts",
       "/home/martin/projects/cookbook/node_modules/@types/range-parser/index.d.ts",
@@ -12061,9 +12063,7 @@
       "/home/martin/projects/cookbook/node_modules/@types/superagent/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/supertest/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/yargs-parser/index.d.ts",
-      "/home/martin/projects/cookbook/node_modules/@types/yargs/index.d.ts",
-      "/home/martin/projects/cookbook/packages/micro-auth/src/auth.controller.ts",
-      "/home/martin/projects/cookbook/packages/micro-auth/src/auth.module.ts"
+      "/home/martin/projects/cookbook/node_modules/@types/yargs/index.d.ts"
     ]
   },
   "version": "3.4.3"
