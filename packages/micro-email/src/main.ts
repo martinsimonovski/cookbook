@@ -16,7 +16,7 @@ async function bootstrap() {
   const app = await NestFactory.createMicroservice(AppModule, grpcClientOptions);
 
   await app.listen(() => {
-    console.log(`Microservice Users is listening on ${grpcClientOptions.options.url}...`)
+    console.log(`Micro-email: ${grpcClientOptions.options.url}...`)
   });
 }
 bootstrap();

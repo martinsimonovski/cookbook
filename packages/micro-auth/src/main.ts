@@ -19,7 +19,7 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
 
   app.listen(() => {
-    console.log(`Microservice Users is listening on ${grpcClientOptions.options.url}...`)
+    console.log(`Micro-auth: ${grpcClientOptions.options.url}...`)
   })
 }
 bootstrap();

@@ -1433,21 +1433,21 @@
         "version": "0e950b89dbbfe15421f00ee7c1e87882032963cbd42ad1311528b5f0a5f38571",
         "signature": "0e950b89dbbfe15421f00ee7c1e87882032963cbd42ad1311528b5f0a5f38571"
       },
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/types.ts": {
-        "version": "e9a1fccb0707e48932fd9e16da0003b2b829dadc6c4f17d556a075d5753a976e",
-        "signature": "9fc51bd4eb390819246f5066bc88d04cc930c5631e30b1a4d31496ea1f6de602"
+      "/home/martin/projects/cookbook/packages/common/dist/src/filters/grpcException.filter.d.ts": {
+        "version": "2e6f568bf728230872f887c78acb457dac81bee2b26ed4f71101bf5646d7692a",
+        "signature": "2e6f568bf728230872f887c78acb457dac81bee2b26ed4f71101bf5646d7692a"
       },
-      "/home/martin/projects/cookbook/node_modules/@nestjs/common/utils/shared.utils.d.ts": {
-        "version": "571f1279f5bc826f0cc713738c5385d7c8e075ac9f078df7c82427904819e2c6",
-        "signature": "571f1279f5bc826f0cc713738c5385d7c8e075ac9f078df7c82427904819e2c6"
+      "/home/martin/projects/cookbook/packages/common/dist/src/utils/types.d.ts": {
+        "version": "a21468ad2c84f6ef6be642cd1cc7bbd9e34fb48f58bd565800f946a4a48b6dc3",
+        "signature": "a21468ad2c84f6ef6be642cd1cc7bbd9e34fb48f58bd565800f946a4a48b6dc3"
       },
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/GrpcErrors.ts": {
-        "version": "eb086d9791e6a29dbd0c4f1ead5e8ed864fdd08c3dd7f8f1aa79a57007490a01",
-        "signature": "2f693591fd9efb2ba29f0348a27a74ab4e519c5d71069eb1c8a3be59970c39c0"
+      "/home/martin/projects/cookbook/packages/common/dist/src/responses/formatGrpsResponse.d.ts": {
+        "version": "7c0fada74228ef3ed5198675b376f5efb1934450e8ed0a7df9bd5fc07adc54fe",
+        "signature": "7c0fada74228ef3ed5198675b376f5efb1934450e8ed0a7df9bd5fc07adc54fe"
       },
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/responses/formatGrpsResponse.ts": {
-        "version": "2ce2d44c3b82576bae5cb267c4da46157e7c11b012263c84b5e240e0a555512c",
-        "signature": "18891dab8b975f66d8b6f15a25437fcd8d17447cafad746b267cb5a0475f2e2b"
+      "/home/martin/projects/cookbook/packages/common/dist/src/utils/GrpcErrors.d.ts": {
+        "version": "b39fbbb225f365d4de52bb3c31ce7cdfc6dd005bf1c2e47249b678ca9ded2f24",
+        "signature": "b39fbbb225f365d4de52bb3c31ce7cdfc6dd005bf1c2e47249b678ca9ded2f24"
       },
       "/home/martin/projects/cookbook/node_modules/typeorm/schema-builder/options/TableColumnOptions.d.ts": {
         "version": "37350aa03991dfad308444531443272a47140d86cb0b0777832d21c62856ebd9",
@@ -2581,69 +2581,25 @@
         "version": "6504842921d88dbb8ad685ecf1be7a3b1593314f62613d24aa0bdbae2cd0b972",
         "signature": "ccb4655868f72cba085f8e5640376f89caeacdd0eaec82f57452bf91e870dab5"
       },
-      "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformOptions.d.ts": {
-        "version": "d89af0c250e1424959162beae79f2c2745c729d6ab8028503d322395d96d3a2b",
-        "signature": "d89af0c250e1424959162beae79f2c2745c729d6ab8028503d322395d96d3a2b"
-      },
-      "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformer.d.ts": {
-        "version": "96589ead67dc132731ddb531c3c7de2e66156df7154b1136d1abd92bdaa27e79",
-        "signature": "96589ead67dc132731ddb531c3c7de2e66156df7154b1136d1abd92bdaa27e79"
-      },
-      "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/ExposeExcludeOptions.d.ts": {
-        "version": "1aed251ab92dfd0e4901b3b9ad5eccdeb4d3603d57af947ae5f1de967f5ffa6e",
-        "signature": "1aed251ab92dfd0e4901b3b9ad5eccdeb4d3603d57af947ae5f1de967f5ffa6e"
-      },
-      "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/TypeMetadata.d.ts": {
-        "version": "fc14f591b59444c787440f6d8d4df6d96a2eafd8dcb8f3d9773d2d52a88db64f",
-        "signature": "fc14f591b59444c787440f6d8d4df6d96a2eafd8dcb8f3d9773d2d52a88db64f"
-      },
-      "/home/martin/projects/cookbook/node_modules/class-transformer/TransformOperationExecutor.d.ts": {
-        "version": "1fa98f06f8163fef61071f77e47ad2b7dd26064a43e219a4468df563e911caf3",
-        "signature": "1fa98f06f8163fef61071f77e47ad2b7dd26064a43e219a4468df563e911caf3"
-      },
-      "/home/martin/projects/cookbook/node_modules/class-transformer/decorators.d.ts": {
-        "version": "cc8aa0870a0defda3818676ecb8123b2d8b15dc40cdc130834bc81b01a58f2e4",
-        "signature": "cc8aa0870a0defda3818676ecb8123b2d8b15dc40cdc130834bc81b01a58f2e4"
-      },
-      "/home/martin/projects/cookbook/node_modules/class-transformer/index.d.ts": {
-        "version": "097d4bf3331df1e138ffdcf92e1117f6841bc8337170d927fd955d5ee8a1674b",
-        "signature": "097d4bf3331df1e138ffdcf92e1117f6841bc8337170d927fd955d5ee8a1674b"
-      },
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/pipes/validation.pipe.ts": {
-        "version": "22337d7d60032564be35bc9eaf9ea9e31c683ef18de670bdce02f11bcbfeb758",
-        "signature": "cbdfc66c6896c8f5e02d962d35c491e8930a8d3482b235888433f7d2b7a7bc00"
-      },
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/filters/grpcException.filter.ts": {
-        "version": "8b81517a9672d26b02dec05156f86970af81e43da3e4adbf46f515fa26ee91a4",
-        "signature": "37d4f8cd5c55eade27c9c18053056dc7ef196c5f7af3b28c2e0534d81916e54c"
-      },
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/index.ts": {
-        "version": "e4eebe5788552baaecff6f7b36208a3dcde6f82286886f8eed0d20115ffefc3e",
-        "signature": "89587f66c9c60c2ad22c6237210c9618e12c375070262edf9441f95f42574f22"
-      },
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.service.ts": {
-        "version": "de030a684e74056fed6bc921164ecd76515b2f35ce351be6fdaa8f0078dc4de3",
-        "signature": "55af1172de471d0950cee05862bc0f321b504c8813d641468a25a33f77b3d053"
+        "version": "e477e73079b6550ac9683591128a8856dd2d17e7638edaaab54c3c228a119bd9",
+        "signature": "1753724a655296466c7b532aa6d63d634513ec68de0cd17885134620b89dc169"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.controller.ts": {
-        "version": "b49dd20574051a10e1946a8ce8b8c35ccaa3e089340ab0012689ded7a375e812",
-        "signature": "c73b8c43a21658f4d346c805f9420baa8bdad4b65036b0f505c890b78a0e3ca8"
+        "version": "9a8b4805b842d363b2faeebcdcdd984d5faed2a42c1aacba25c49770211d9529",
+        "signature": "721c4bce2be9d5e125b6c2451ac29c7fb7ad198f1eb0765ad776ec68c1910c54"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.module.ts": {
-        "version": "4b8d2f3d2abc3a886807910b38f906b1d8b9becb403102c39d1c25c1ea1cdb40",
-        "signature": "a28b5c0c372fb375910b3fe3c3ce4331509bc18ccef7cc39c9ee9d8daf8225d1"
+        "version": "8c0bd0496449d2afc1758e43b3f037459cb9f47e9e1f512e272891a210a02f08",
+        "signature": "4c8600bd7c3246143bb026996dee7db39ef7a4ff8d041aa21835b634fdf2133e"
+      },
+      "/home/martin/projects/cookbook/packages/common/dist/src/pipes/validation.pipe.d.ts": {
+        "version": "3dd5b333b43d4c7e11e0e8130e08e01decb718d72e915a5ca88feded3182d2f5",
+        "signature": "3dd5b333b43d4c7e11e0e8130e08e01decb718d72e915a5ca88feded3182d2f5"
       },
       "/home/martin/projects/cookbook/packages/micro-auth/src/main.ts": {
-        "version": "a14d736a19d3512d860a3b35a600ec6153073a296c3082da0bab940c1f53f292",
+        "version": "9112382316ee4638dfc9c91060adba88d4d7d08d70df25711202d413a8c08191",
         "signature": "0e63c577b4b9d87162f693ac6d621b937aa8f20138786fa34fca095cf9e468f9"
-      },
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/responses/formatHttpResponse.ts": {
-        "version": "eea8c2a145e56ad155acfbf339348af3f5fcab9ff9644955ea6ac549908e3e8a",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/mapping.ts": {
-        "version": "0db21ba053203cb2b4ac101b9ea07be22ca584b6de1c90210f3a6fc240ace2da",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "/home/martin/projects/cookbook/node_modules/@types/range-parser/index.d.ts": {
         "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
@@ -2791,6 +2747,7 @@
       "baseUrl": "/home/martin/projects/cookbook/packages/micro-auth/",
       "incremental": true,
       "project": "tsconfig.build.json",
+      "watch": true,
       "configFilePath": "/home/martin/projects/cookbook/packages/micro-auth/tsconfig.build.json"
     },
     "referencedMap": {
@@ -4981,26 +4938,25 @@
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/types.ts": [
-        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/node_modules/@nestjs/common/utils/shared.utils.d.ts": [
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/GrpcErrors.ts": [
-        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
-        "/home/martin/projects/cookbook/node_modules/@nestjs/common/utils/shared.utils.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/responses/formatGrpsResponse.ts": [
+      "/home/martin/projects/cookbook/packages/common/dist/src/filters/grpcException.filter.d.ts": [
         "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/rxjs/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/packages/common/dist/src/utils/types.d.ts": [
         "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/types.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/GrpcErrors.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/packages/common/dist/src/responses/formatGrpsResponse.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/src/utils/types.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/packages/common/dist/src/utils/GrpcErrors.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -6900,91 +6856,30 @@
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformOptions.d.ts": [
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformer.d.ts": [
-        "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformOptions.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/ExposeExcludeOptions.d.ts": [
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/TypeMetadata.d.ts": [
-        "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/ExposeExcludeOptions.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/node_modules/class-transformer/TransformOperationExecutor.d.ts": [
-        "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformOptions.d.ts",
-        "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/TypeMetadata.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/node_modules/class-transformer/decorators.d.ts": [
-        "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/ExposeExcludeOptions.d.ts",
-        "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformOptions.d.ts",
-        "/home/martin/projects/cookbook/node_modules/class-transformer/TransformOperationExecutor.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/node_modules/class-transformer/index.d.ts": [
-        "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformer.d.ts",
-        "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformOptions.d.ts",
-        "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/ExposeExcludeOptions.d.ts",
-        "/home/martin/projects/cookbook/node_modules/class-transformer/decorators.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/pipes/validation.pipe.ts": [
-        "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
-        "/home/martin/projects/cookbook/node_modules/class-validator/index.d.ts",
-        "/home/martin/projects/cookbook/node_modules/class-transformer/index.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/GrpcErrors.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/filters/grpcException.filter.ts": [
-        "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
-        "/home/martin/projects/cookbook/node_modules/@nestjs/core/constants.d.ts",
-        "/home/martin/projects/cookbook/node_modules/@nestjs/common/utils/shared.utils.d.ts",
-        "/home/martin/projects/cookbook/node_modules/rxjs/index.d.ts",
-        "/home/martin/projects/cookbook/node_modules/@nestjs/microservices/index.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/GrpcErrors.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/index.ts": [
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/responses/formatGrpsResponse.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/pipes/validation.pipe.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/filters/grpcException.filter.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/GrpcErrors.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/types.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.service.ts": [
         "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/typeorm/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/@nestjs/typeorm/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/crypto-random-string/index.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/src/utils/GrpcErrors.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/src/entities/index.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/index.ts",
+        "/home/martin/projects/cookbook/node_modules/rxjs/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@nestjs/microservices/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/path.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.controller.ts": [
         "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/@nestjs/microservices/index.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/responses/formatGrpsResponse.ts",
+        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/src/filters/grpcException.filter.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/src/responses/formatGrpsResponse.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/src/utils/GrpcErrors.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/src/auth.service.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/src/entities/index.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/filters/grpcException.filter.ts",
-        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/index.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/path.d.ts",
+        "/home/martin/projects/cookbook/node_modules/rxjs/index.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -6997,20 +6892,17 @@
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/home/martin/projects/cookbook/packages/common/dist/src/pipes/validation.pipe.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/home/martin/projects/cookbook/packages/micro-auth/src/main.ts": [
         "/home/martin/projects/cookbook/node_modules/@nestjs/core/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/@nestjs/microservices/index.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/path.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/src/pipes/validation.pipe.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/src/auth.module.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/pipes/validation.pipe.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/responses/formatHttpResponse.ts": [
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/mapping.ts": [
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -9385,19 +9277,27 @@
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/types.ts": [
-        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts"
-      ],
-      "/home/martin/projects/cookbook/node_modules/@nestjs/common/utils/shared.utils.d.ts": [
+      "/home/martin/projects/cookbook/packages/common/dist/src/filters/grpcException.filter.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/rxjs/index.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/GrpcErrors.ts": [
-        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts"
+      "/home/martin/projects/cookbook/packages/common/dist/src/utils/types.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/responses/formatGrpsResponse.ts": [
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/types.ts",
-        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts"
+      "/home/martin/projects/cookbook/packages/common/dist/src/responses/formatGrpsResponse.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/src/utils/types.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/packages/common/dist/src/utils/GrpcErrors.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/home/martin/projects/cookbook/node_modules/typeorm/schema-builder/options/TableColumnOptions.d.ts": [
         "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
@@ -11275,67 +11175,24 @@
         "/home/martin/projects/cookbook/packages/micro-auth/src/entities/emailVerification.entity.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/src/entities/consentRegistry.entity.ts"
       ],
-      "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformOptions.d.ts": [
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformer.d.ts": [
-        "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformOptions.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/ExposeExcludeOptions.d.ts": [
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/TypeMetadata.d.ts": [
-        "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/ExposeExcludeOptions.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/node_modules/class-transformer/TransformOperationExecutor.d.ts": [
-        "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformOptions.d.ts",
-        "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/TypeMetadata.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/node_modules/class-transformer/decorators.d.ts": [
-        "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/ExposeExcludeOptions.d.ts",
-        "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformOptions.d.ts",
-        "/home/martin/projects/cookbook/node_modules/class-transformer/TransformOperationExecutor.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/node_modules/class-transformer/index.d.ts": [
-        "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformer.d.ts",
-        "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformOptions.d.ts",
-        "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/ExposeExcludeOptions.d.ts",
-        "/home/martin/projects/cookbook/node_modules/class-transformer/decorators.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/pipes/validation.pipe.ts": [
-        "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts"
-      ],
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/filters/grpcException.filter.ts": [
-        "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
-        "/home/martin/projects/cookbook/node_modules/rxjs/index.d.ts"
-      ],
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/index.ts": [
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/responses/formatGrpsResponse.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/pipes/validation.pipe.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/filters/grpcException.filter.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/GrpcErrors.ts",
-        "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/types.ts"
-      ],
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.service.ts": [
+        "/home/martin/projects/cookbook/node_modules/@nestjs/microservices/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/typeorm/index.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/src/entities/index.ts"
       ],
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.controller.ts": [
+        "/home/martin/projects/cookbook/node_modules/@nestjs/microservices/index.d.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/src/auth.service.ts",
         "/home/martin/projects/cookbook/packages/micro-auth/src/entities/index.ts",
         "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts"
+      ],
+      "/home/martin/projects/cookbook/packages/micro-auth/src/auth.module.ts": [
+        "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts"
+      ],
+      "/home/martin/projects/cookbook/packages/common/dist/src/pipes/validation.pipe.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-auth/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/home/martin/projects/cookbook/packages/micro-auth/src/main.ts": [
         "/home/martin/projects/cookbook/node_modules/@nestjs/microservices/index.d.ts"
@@ -11882,10 +11739,10 @@
       "/home/martin/projects/cookbook/node_modules/@types/long/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/bytebuffer/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/types.ts",
-      "/home/martin/projects/cookbook/node_modules/@nestjs/common/utils/shared.utils.d.ts",
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/GrpcErrors.ts",
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/responses/formatGrpsResponse.ts",
+      "/home/martin/projects/cookbook/packages/common/dist/src/filters/grpcException.filter.d.ts",
+      "/home/martin/projects/cookbook/packages/common/dist/src/utils/types.d.ts",
+      "/home/martin/projects/cookbook/packages/common/dist/src/responses/formatGrpsResponse.d.ts",
+      "/home/martin/projects/cookbook/packages/common/dist/src/utils/GrpcErrors.d.ts",
       "/home/martin/projects/cookbook/node_modules/typeorm/schema-builder/options/TableColumnOptions.d.ts",
       "/home/martin/projects/cookbook/node_modules/typeorm/schema-builder/table/TableColumn.d.ts",
       "/home/martin/projects/cookbook/node_modules/typeorm/common/ObjectLiteral.d.ts",
@@ -12169,22 +12026,9 @@
       "/home/martin/projects/cookbook/packages/micro-auth/src/entities/emailVerification.entity.ts",
       "/home/martin/projects/cookbook/packages/micro-auth/src/entities/consentRegistry.entity.ts",
       "/home/martin/projects/cookbook/packages/micro-auth/src/entities/index.ts",
-      "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformOptions.d.ts",
-      "/home/martin/projects/cookbook/node_modules/class-transformer/ClassTransformer.d.ts",
-      "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/ExposeExcludeOptions.d.ts",
-      "/home/martin/projects/cookbook/node_modules/class-transformer/metadata/TypeMetadata.d.ts",
-      "/home/martin/projects/cookbook/node_modules/class-transformer/TransformOperationExecutor.d.ts",
-      "/home/martin/projects/cookbook/node_modules/class-transformer/decorators.d.ts",
-      "/home/martin/projects/cookbook/node_modules/class-transformer/index.d.ts",
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/pipes/validation.pipe.ts",
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/filters/grpcException.filter.ts",
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/index.ts",
       "/home/martin/projects/cookbook/packages/micro-auth/src/auth.service.ts",
-      "/home/martin/projects/cookbook/packages/micro-auth/src/auth.controller.ts",
-      "/home/martin/projects/cookbook/packages/micro-auth/src/auth.module.ts",
+      "/home/martin/projects/cookbook/packages/common/dist/src/pipes/validation.pipe.d.ts",
       "/home/martin/projects/cookbook/packages/micro-auth/src/main.ts",
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/responses/formatHttpResponse.ts",
-      "/home/martin/projects/cookbook/packages/micro-auth/src/lib/utils/mapping.ts",
       "/home/martin/projects/cookbook/node_modules/@types/range-parser/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/express-serve-static-core/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/mime/index.d.ts",
@@ -12217,7 +12061,9 @@
       "/home/martin/projects/cookbook/node_modules/@types/superagent/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/supertest/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/yargs-parser/index.d.ts",
-      "/home/martin/projects/cookbook/node_modules/@types/yargs/index.d.ts"
+      "/home/martin/projects/cookbook/node_modules/@types/yargs/index.d.ts",
+      "/home/martin/projects/cookbook/packages/micro-auth/src/auth.controller.ts",
+      "/home/martin/projects/cookbook/packages/micro-auth/src/auth.module.ts"
     ]
   },
   "version": "3.4.3"

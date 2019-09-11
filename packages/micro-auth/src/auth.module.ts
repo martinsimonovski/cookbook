@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module, Logger } from '@nestjs/common';
 import { AuthController } from './auth.controller';
 import { AuthService } from './auth.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
@@ -21,4 +21,10 @@ import { User, EmailVerification, ConsentRegistry } from './entities';
     controllers: [AuthController],
     providers: [AuthService],
 })
-export class AuthModule { }
+export class AuthModule {
+    logger = new Logger('AuthModule');
+    constructor() {
+
+        this.logger.log(__dirname + '/**/*.entity{.ts,.js}', '=====>')
+    }
+}

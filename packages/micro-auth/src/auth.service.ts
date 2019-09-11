@@ -6,16 +6,45 @@ import * as nodemailer from 'nodemailer';
 import * as doetnv from 'dotenv';
 import { GrpcAlreadyExistError, GrpcAbortedError, GrpcInternalError } from '@cookbook/common/dist/src/utils/GrpcErrors';
 import { User, EmailVerification, ConsentRegistry } from './entities';
+import { Observable } from 'rxjs';
+import { ClientGrpc, Transport, Client } from '@nestjs/microservices';
+import { join } from 'path';
+
+interface EmailService {
+    register(data: {
+        from: string;
+        to: string | string[];
+        subject: string;
+        text: string;
+        html: string;
+    }): Observable<any>;
+}
 
 @Injectable()
 export class AuthService {
     private logger = new Logger('AuthService');
+
+    @Client({
+        transport: Transport.GRPC,
+        options: {
+            url: '*:50052',
+            package: 'email',
+            protoPath: join(__dirname, '../../../packages/proto-files/email.proto'),
+        },
+    })
+    client: ClientGrpc;
+
+    private emailService;
 
     constructor(
         @InjectRepository(User) private userRepository: Repository<User>,
         @InjectRepository(EmailVerification) private emailVerificationRepository: Repository<EmailVerification>,
         @InjectRepository(ConsentRegistry) private concentRegistryRepository: Repository<ConsentRegistry>,
     ) { }
+
+    onModuleInit() {
+        this.emailService = this.client.getService<EmailService>('EmailService')
+    }
 
     public async register(user: User): Promise<User> {
         this.logger.log('registerFN()')
@@ -103,29 +132,18 @@ export class AuthService {
             );
 
             let mailOptions = {
-                from: '"Company" <Lets Develop>',
-                to: email,
+                from: 'contact@cookbook.com',
+                to: [email],
                 subject: 'Verify Email',
                 text: 'Verify Email',
                 html: 'Hi! <br><br> Thanks for your registration<br><br>' +
                     '<a href="http://localhost:3000/auth/email/verify/' + ev.emailToken + '>Click here to activate your account</a>'  // html body
             };
 
-            try {
-                let sent = await new Promise<boolean>(async function (resolve, reject) {
-                    return await transporter.sendMail(mailOptions, async (error, info) => {
-                        if (error) {
-                            throw new GrpcInternalError('There was an error while sending confirmation email');
-                        }
-                        return resolve(true);
-                    });
-                })
-                return sent;
-            } catch (e) {
-                throw new GrpcInternalError('There was an error while sending confirmation email');
-            }
+            return await this.emailService.send(mailOptions).toPromise().then(result => {
+                return result;
+            })
         }
-
         return false;
     }
 

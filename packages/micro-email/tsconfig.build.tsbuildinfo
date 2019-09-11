@@ -1442,7 +1442,7 @@
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
       },
       "/home/martin/projects/cookbook/packages/micro-email/src/main.ts": {
-        "version": "e163d231754d1eefb7789b7f44a88a8c533b730f256b55a8c3a40ea37d493d59",
+        "version": "ea3986c24477ed81d3e8768f6b8ab7d6f019239172b6af420d35b0b8620cc420",
         "signature": "0e63c577b4b9d87162f693ac6d621b937aa8f20138786fa34fca095cf9e468f9"
       },
       "/home/martin/projects/cookbook/node_modules/@types/range-parser/index.d.ts": {
@@ -6753,6 +6753,7 @@
       "/home/martin/projects/cookbook/packages/common/dist/src/responses/formatGrpsResponse.d.ts",
       "/home/martin/projects/cookbook/packages/common/dist/src/utils/GrpcErrors.d.ts",
       "/home/martin/projects/cookbook/packages/common/dist/src/filters/grpcException.filter.d.ts",
+      "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts",
       "/home/martin/projects/cookbook/packages/micro-email/src/app.controller.ts",
       "/home/martin/projects/cookbook/packages/micro-email/src/app.module.ts",
       "/home/martin/projects/cookbook/packages/micro-email/src/main.ts",
@@ -6789,8 +6790,7 @@
       "/home/martin/projects/cookbook/node_modules/@types/supertest/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/validator/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/yargs-parser/index.d.ts",
-      "/home/martin/projects/cookbook/node_modules/@types/yargs/index.d.ts",
-      "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts"
+      "/home/martin/projects/cookbook/node_modules/@types/yargs/index.d.ts"
     ]
   },
   "version": "3.4.3"

@@ -4,6 +4,7 @@ import { isObject } from '@nestjs/common/utils/shared.utils';
 import { Observable, throwError, of } from 'rxjs';
 import { RpcException } from '@nestjs/microservices';
 import { GrpcError } from '../utils/GrpcErrors';
+import { status as grpcStatus } from 'grpc';
 
 export const isError = (exception: any): exception is Error => {
     return !!(isObject(exception) && (exception as Error).message);
@@ -18,7 +19,7 @@ export class ExceptionFilter<T = any, R = any>
         this.logger.log(exception, 'something happened');
         if (exception instanceof RpcException) {
             const res = exception.getError();
-            const message = isObject(res) ? res : { status, message: res };
+            const message = isObject(res) ? res : { status: 2, message: res };
             return throwError(message);
         }
 
