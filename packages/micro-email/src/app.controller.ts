@@ -14,6 +14,22 @@ export interface Email {
   html: string;
 }
 
+export class Email implements Email {
+  from: string;
+  to: string | string[];
+  subject: string;
+  text: string;
+  html: string;
+
+  constructor(data: Email) {
+    this.from = data.from;
+    this.to = data.to;
+    this.subject = data.subject;
+    this.text = data.text;
+    this.html = data.html;
+  }
+}
+
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) { }

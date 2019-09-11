@@ -1462,20 +1462,20 @@
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
       "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts": {
-        "version": "8c8145e8822ffdbd0ecf1f9ff2db8313baddf793cb159bb5609bf48d82a1990d",
-        "signature": "22755742e9a3822447c4c7265c0ef9cedc9b8f6eabf3bfd9c4a58391595f73e3"
+        "version": "1f596e0678ca9a7d36147730ae868f754c6f063120e21e1f4d6d2df99148d85e",
+        "signature": "882b60a7cf6c552ef5388ff444b465d32aaf9cd70c744e3586aabf1e54de41d9"
       },
       "/home/martin/projects/cookbook/packages/micro-email/src/app.controller.ts": {
-        "version": "904d7bf36f6ce239c3d174b672bdbf6bd3797776c9ba3611078f45837383aa33",
-        "signature": "8c3f4f1868d2479c3cae0f0fa30edd313a3cb10d6786463c78da93f6bf1f982f"
+        "version": "f7456911e8f63aeac104901e0ab5cec2e07198f791e62236a0c2c78358c19723",
+        "signature": "158b1b4f248fd6082da7dc5bacdfa33c5e2dc41b9a0a90bb68dcbaa25f9009a8"
       },
       "/home/martin/projects/cookbook/packages/micro-email/src/schemas/email.schema.ts": {
         "version": "4ca90b9f4f4f814e41815178a02aafcfee99c0eb07966b7cb8641b1d7bf6c6a7",
         "signature": "43ee9efc1ad56c1b1a48891eef9ada3d88c708831bd18ebb484ab8f77f11145e"
       },
       "/home/martin/projects/cookbook/packages/micro-email/src/app.module.ts": {
-        "version": "0f5a3129c095f1a821b41a88714ed528461fec4b82739b0752e2b6fc7f8181f0",
-        "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
+        "version": "e718ace9944f9a62fa9bd46febbfa4d3ed7dfdf3f124fa52ad91a7dbecd8856a",
+        "signature": "768602dd378562a574f6d825b1ffff899d148b5614023352a392add3b3020fb4"
       },
       "/home/martin/projects/cookbook/packages/micro-email/src/main.ts": {
         "version": "ea3986c24477ed81d3e8768f6b8ab7d6f019239172b6af420d35b0b8620cc420",
@@ -3871,8 +3871,8 @@
       "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts": [
         "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
         "/home/martin/projects/cookbook/packages/common/dist/src/utils/GrpcErrors.d.ts",
-        "/home/martin/projects/cookbook/packages/micro-email/src/app.controller.ts",
         "/home/martin/projects/cookbook/node_modules/@nestjs/mongoose/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/src/app.controller.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -6335,6 +6335,10 @@
       "/home/martin/projects/cookbook/packages/micro-email/src/app.controller.ts": [
         "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts",
         "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts"
+      ],
+      "/home/martin/projects/cookbook/packages/micro-email/src/app.module.ts": [
+        "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts",
+        "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts"
       ],
       "/home/martin/projects/cookbook/packages/micro-email/src/main.ts": [
         "/home/martin/projects/cookbook/node_modules/@nestjs/microservices/index.d.ts"

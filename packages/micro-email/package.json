@@ -29,6 +29,7 @@
     "dotenv": "^8.1.0",
     "grpc": "^1.23.3",
     "mongoose": "^5.7.0",
+    "node-cron": "^2.0.3",
     "nodemailer": "^6.3.0",
     "reflect-metadata": "^0.1.12",
     "rimraf": "^2.6.2",
