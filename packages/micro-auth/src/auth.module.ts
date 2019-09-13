@@ -6,23 +6,23 @@ import { User, EmailVerification, ConsentRegistry } from './entities';
 
 @Module({
     imports: [
-        // TypeOrmModule.forRoot({
-        //     type: 'mysql',
-        //     host: 'localhost',
-        //     port: 3306,
-        //     username: 'admin',
-        //     password: 'admin',
-        //     database: 'micro_auth',
-        //     entities: [__dirname + '/**/*.entity{.ts,.js}'],
-        //     synchronize: true,
-        // }),
-        // TypeOrmModule.forFeature([User, EmailVerification, ConsentRegistry])
+        TypeOrmModule.forRoot({
+            type: 'mysql',
+            host: 'localhost',
+            port: 3306,
+            username: 'admin',
+            password: 'admin',
+            database: 'micro_auth',
+            entities: [__dirname + '/**/*.entity{.ts,.js}'],
+            synchronize: true,
+        }),
+        TypeOrmModule.forFeature([User, EmailVerification, ConsentRegistry])
     ],
     controllers: [
-        // AuthController
+        AuthController
     ],
     providers: [
-        // AuthService
+        AuthService
     ],
 })
 export class AuthModule {

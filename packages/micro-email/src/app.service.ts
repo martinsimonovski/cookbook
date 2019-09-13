@@ -57,6 +57,7 @@ export class AppService {
     });
 
     try {
+      console.warn('==>> save mail')
       await createdEmail.save();
       return true;
     } catch (e) {

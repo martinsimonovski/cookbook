@@ -1470,7 +1470,7 @@
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
       "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts": {
-        "version": "56bac184b40b0009b67865a4b7a67c56136827b29003dc3c1c732ea733bee54d",
+        "version": "88356ae2bb5c0e60c76a2457f7f9a7dab2331c59acc902aa3f0d8e7bb92ad350",
         "signature": "882b60a7cf6c552ef5388ff444b465d32aaf9cd70c744e3586aabf1e54de41d9"
       },
       "/home/martin/projects/cookbook/packages/micro-email/src/app.controller.ts": {
@@ -7568,7 +7568,6 @@
       "/home/martin/projects/cookbook/node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
       "/home/martin/projects/cookbook/node_modules/@nestjs/mongoose/dist/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@nestjs/mongoose/index.d.ts",
-      "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts",
       "/home/martin/projects/cookbook/packages/micro-email/src/app.controller.ts",
       "/home/martin/projects/cookbook/packages/micro-email/src/schemas/email.schema.ts",
       "/home/martin/projects/cookbook/packages/micro-email/src/app.module.ts",
@@ -7630,7 +7629,8 @@
       "/home/martin/projects/cookbook/node_modules/@types/supertest/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/validator/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/yargs-parser/index.d.ts",
-      "/home/martin/projects/cookbook/node_modules/@types/yargs/index.d.ts"
+      "/home/martin/projects/cookbook/node_modules/@types/yargs/index.d.ts",
+      "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts"
     ]
   },
   "version": "3.4.3"
