@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { Model } from 'mongoose';
 import * as nodemailer from 'nodemailer';
 import * as dotenv from 'dotenv';
-import { GrpcInternalError } from '@cookbook/common/dist/src/utils/GrpcErrors';
+import { GrpcInternalError } from '@cookbook/common';
 import { InjectModel } from '@nestjs/mongoose';
 import * as cron from 'node-cron';
 import { Email } from './app.controller';

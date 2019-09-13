@@ -1,9 +1,7 @@
 import { Controller, Logger, UseFilters } from '@nestjs/common';
 import { GrpcMethod, ClientGrpc, Client, Transport } from '@nestjs/microservices';
 import * as grpc from 'grpc';
-import { ExceptionFilter } from '@cookbook/common/dist/src/filters/grpcException.filter';
-import { grpcResponse } from '@cookbook/common/dist/src/responses/formatGrpsResponse';
-import { GrpcInternalError } from '@cookbook/common/dist/src/utils/GrpcErrors';
+import { ExceptionFilter, grpcResponse, GrpcInternalError } from '@cookbook/common';
 import { AuthService } from './auth.service';
 import { User } from './entities';
 import { join } from 'path';

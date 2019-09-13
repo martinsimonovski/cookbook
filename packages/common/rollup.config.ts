@@ -1,6 +1,6 @@
 import resolve from 'rollup-plugin-node-resolve'
 import commonjs from 'rollup-plugin-commonjs'
-import sourceMaps from 'rollup-plugin-sourcemaps'
+// import sourceMaps from 'rollup-plugin-sourcemaps'
 import camelCase from 'lodash.camelcase'
 import typescript from 'rollup-plugin-typescript2'
 import json from 'rollup-plugin-json'
@@ -25,10 +25,9 @@ export default {
     ],
     // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
     external: [
-        'websocket',
-        'sockjs-client',
-        'axios',
-        'crypto'
+        'grpc',
+        '@nestjs/common',
+        '@nestjs/microservices'
     ],
     watch: {
         include: [
@@ -53,6 +52,6 @@ export default {
         // https://github.com/rollup/rollup-plugin-node-resolve#usage
 
         // Resolve source maps to the original source
-        sourceMaps()
+        // sourceMaps()
     ],
 }
