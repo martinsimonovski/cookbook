@@ -1,6 +1,6 @@
 import { Logger } from '@nestjs/common';
 import { status as grpcStatus } from 'grpc';
-import { GrpcAnswer, GrpcErrorResponse } from '../utils/types';
+import { GrpcAnswer } from '../utils/types';
 import { GrpcInternalError } from '../utils/GrpcErrors';
 
 export const formatGrpcResponse = async <P extends unknown[], R>(
@@ -9,7 +9,6 @@ export const formatGrpcResponse = async <P extends unknown[], R>(
 ): Promise<GrpcAnswer<R>> => {
     const logger = new Logger('FormatGrpcResponse');
     let data: R = ({} as unknown) as R;
-    let response: GrpcErrorResponse;
     let status: grpcStatus;
 
     try {
@@ -25,7 +24,5 @@ export const formatGrpcResponse = async <P extends unknown[], R>(
 
 
 export const grpcResponse = (data: any) => {
-    const logger = new Logger('GrpcResponse');
-    let status: grpcStatus = grpcStatus.OK;
-    return { status, data }
+    return { status: grpcStatus.OK, data }
 }

@@ -4,10 +4,10 @@ import { InjectRepository } from '@nestjs/typeorm';
 import * as cryptoRandomString from 'crypto-random-string';
 import * as nodemailer from 'nodemailer';
 import * as doetnv from 'dotenv';
-import { GrpcAlreadyExistError, GrpcAbortedError, GrpcInternalError } from '@cookbook/common/dist/src/utils/GrpcErrors';
-import { User, EmailVerification, ConsentRegistry } from './entities';
 import { Observable } from 'rxjs';
 import { ClientGrpc, Transport, Client } from '@nestjs/microservices';
+import { GrpcAlreadyExistError, GrpcAbortedError } from '@cookbook/common';
+import { User, EmailVerification, ConsentRegistry } from './entities';
 import { join } from 'path';
 
 interface EmailService {

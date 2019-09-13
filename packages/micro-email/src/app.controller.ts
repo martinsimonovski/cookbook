@@ -1,9 +1,7 @@
-import { Controller, Get, UseFilters } from '@nestjs/common';
+import { Controller, UseFilters } from '@nestjs/common';
 import { GrpcMethod } from '@nestjs/microservices';
 import * as grpc from 'grpc';
-import { grpcResponse } from '@cookbook/common/dist/src/responses/formatGrpsResponse';
-import { GrpcInternalError } from '@cookbook/common/dist/src/utils/GrpcErrors';
-import { ExceptionFilter } from '@cookbook/common/dist/src/filters/grpcException.filter';
+import { grpcResponse, GrpcInternalError, ExceptionFilter } from '@cookbook/common';
 import { AppService } from './app.service';
 
 export interface Email {

@@ -18,8 +18,12 @@ import { User, EmailVerification, ConsentRegistry } from './entities';
         }),
         TypeOrmModule.forFeature([User, EmailVerification, ConsentRegistry])
     ],
-    controllers: [AuthController],
-    providers: [AuthService],
+    controllers: [
+        AuthController
+    ],
+    providers: [
+        AuthService
+    ],
 })
 export class AuthModule {
     logger = new Logger('AuthModule');
