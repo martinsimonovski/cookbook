@@ -1413,21 +1413,29 @@
         "version": "0e950b89dbbfe15421f00ee7c1e87882032963cbd42ad1311528b5f0a5f38571",
         "signature": "0e950b89dbbfe15421f00ee7c1e87882032963cbd42ad1311528b5f0a5f38571"
       },
-      "/home/martin/projects/cookbook/packages/common/dist/src/utils/types.d.ts": {
-        "version": "a21468ad2c84f6ef6be642cd1cc7bbd9e34fb48f58bd565800f946a4a48b6dc3",
-        "signature": "a21468ad2c84f6ef6be642cd1cc7bbd9e34fb48f58bd565800f946a4a48b6dc3"
+      "/home/martin/projects/cookbook/packages/common/dist/types/utils/types.d.ts": {
+        "version": "122404a4a59be26cd5341962f2495366373aef77606e663f8f1e630caef51047",
+        "signature": "122404a4a59be26cd5341962f2495366373aef77606e663f8f1e630caef51047"
       },
-      "/home/martin/projects/cookbook/packages/common/dist/src/responses/formatGrpsResponse.d.ts": {
-        "version": "7c0fada74228ef3ed5198675b376f5efb1934450e8ed0a7df9bd5fc07adc54fe",
-        "signature": "7c0fada74228ef3ed5198675b376f5efb1934450e8ed0a7df9bd5fc07adc54fe"
+      "/home/martin/projects/cookbook/packages/common/dist/types/responses/formatGrpsResponse.d.ts": {
+        "version": "18bc8978d32842d1eb7e4b444b6626684c167e2c4e4885f06b8f88073d82ceb4",
+        "signature": "18bc8978d32842d1eb7e4b444b6626684c167e2c4e4885f06b8f88073d82ceb4"
       },
-      "/home/martin/projects/cookbook/packages/common/dist/src/utils/GrpcErrors.d.ts": {
-        "version": "b39fbbb225f365d4de52bb3c31ce7cdfc6dd005bf1c2e47249b678ca9ded2f24",
-        "signature": "b39fbbb225f365d4de52bb3c31ce7cdfc6dd005bf1c2e47249b678ca9ded2f24"
+      "/home/martin/projects/cookbook/packages/common/dist/types/pipes/validation.pipe.d.ts": {
+        "version": "59e92ea2ff488c61461246f03e0b33b21414d0a7dcec8de0907245780b26728c",
+        "signature": "59e92ea2ff488c61461246f03e0b33b21414d0a7dcec8de0907245780b26728c"
       },
-      "/home/martin/projects/cookbook/packages/common/dist/src/filters/grpcException.filter.d.ts": {
-        "version": "2e6f568bf728230872f887c78acb457dac81bee2b26ed4f71101bf5646d7692a",
-        "signature": "2e6f568bf728230872f887c78acb457dac81bee2b26ed4f71101bf5646d7692a"
+      "/home/martin/projects/cookbook/packages/common/dist/types/filters/grpcException.filter.d.ts": {
+        "version": "d770a1e5837b11ed02e7bef214a6a1136da1ffaa3d9f029b64ff43be348a0fbc",
+        "signature": "d770a1e5837b11ed02e7bef214a6a1136da1ffaa3d9f029b64ff43be348a0fbc"
+      },
+      "/home/martin/projects/cookbook/packages/common/dist/types/utils/GrpcErrors.d.ts": {
+        "version": "a7a07ec68c0b149a59a78b4f37f5047ba63bbf12225b2b2225e88943eb80456c",
+        "signature": "a7a07ec68c0b149a59a78b4f37f5047ba63bbf12225b2b2225e88943eb80456c"
+      },
+      "/home/martin/projects/cookbook/packages/common/dist/types/index.d.ts": {
+        "version": "9e99de524087fa1dacbc4532bd26bfd03b3a5e7b3af15d3f2db7cba395a21378",
+        "signature": "9e99de524087fa1dacbc4532bd26bfd03b3a5e7b3af15d3f2db7cba395a21378"
       },
       "/home/martin/projects/cookbook/node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts": {
         "version": "120fe6ff3f553b3d2a0e065b6fea421698be40a802273652871273338085873c",
@@ -1462,12 +1470,12 @@
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
       "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts": {
-        "version": "1f596e0678ca9a7d36147730ae868f754c6f063120e21e1f4d6d2df99148d85e",
+        "version": "56bac184b40b0009b67865a4b7a67c56136827b29003dc3c1c732ea733bee54d",
         "signature": "882b60a7cf6c552ef5388ff444b465d32aaf9cd70c744e3586aabf1e54de41d9"
       },
       "/home/martin/projects/cookbook/packages/micro-email/src/app.controller.ts": {
-        "version": "f7456911e8f63aeac104901e0ab5cec2e07198f791e62236a0c2c78358c19723",
-        "signature": "158b1b4f248fd6082da7dc5bacdfa33c5e2dc41b9a0a90bb68dcbaa25f9009a8"
+        "version": "d695f26959c09f0a795772ee2c3f166fb0c53261a1b8c140268603d9db43ee0a",
+        "signature": "4235434bf547396b1f3ce9f4ccc7edd2246e7b361c3878cc0dde51167fe56c9d"
       },
       "/home/martin/projects/cookbook/packages/micro-email/src/schemas/email.schema.ts": {
         "version": "4ca90b9f4f4f814e41815178a02aafcfee99c0eb07966b7cb8641b1d7bf6c6a7",
@@ -1537,6 +1545,10 @@
         "version": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56",
         "signature": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56"
       },
+      "/home/martin/projects/cookbook/node_modules/@types/estree/index.d.ts": {
+        "version": "89ccbe04e737ce613f5f04990271cfa84901446350b8551b0555ddf19319723b",
+        "signature": "89ccbe04e737ce613f5f04990271cfa84901446350b8551b0555ddf19319723b"
+      },
       "/home/martin/projects/cookbook/node_modules/@types/minimatch/index.d.ts": {
         "version": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
         "signature": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633"
@@ -1577,6 +1589,62 @@
         "version": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
         "signature": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538"
       },
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts": {
+        "version": "4025cf62742c5bb3d383c8a62342481622c87e3397ea5e7b7baab18b9efd5798",
+        "signature": "4025cf62742c5bb3d383c8a62342481622c87e3397ea5e7b7baab18b9efd5798"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts": {
+        "version": "80bcf7af2e82d675144a547960b4fbc72d145af19a961fed3573323703d7d2ec",
+        "signature": "80bcf7af2e82d675144a547960b4fbc72d145af19a961fed3573323703d7d2ec"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts": {
+        "version": "0c75b204aed9cf6ff1c7b4bed87a3ece0d9d6fc857a6350c0c95ed0c38c814e8",
+        "signature": "0c75b204aed9cf6ff1c7b4bed87a3ece0d9d6fc857a6350c0c95ed0c38c814e8"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts": {
+        "version": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42",
+        "signature": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts": {
+        "version": "45bf6da7cede8211b7d0579deabfa227490dfe8b932a56a962599efc48356e68",
+        "signature": "45bf6da7cede8211b7d0579deabfa227490dfe8b932a56a962599efc48356e68"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts": {
+        "version": "c2d47e5668f89ed8768d306919c42bb88d50d4029d68f58343141360895cfcc0",
+        "signature": "c2d47e5668f89ed8768d306919c42bb88d50d4029d68f58343141360895cfcc0"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts": {
+        "version": "65648639567d214f62c1b21d200c852807e68bdb08311f95ab6f526ef5b98995",
+        "signature": "65648639567d214f62c1b21d200c852807e68bdb08311f95ab6f526ef5b98995"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts": {
+        "version": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a",
+        "signature": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts": {
+        "version": "a46a28781991cd761431784ea72cb7772f4a9155a7ee78f0b040088e856ed9a2",
+        "signature": "a46a28781991cd761431784ea72cb7772f4a9155a7ee78f0b040088e856ed9a2"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts": {
+        "version": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd",
+        "signature": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts": {
+        "version": "e34f3f6159b1e23de9bb5521382795aaa5aaed6f53b4702e70a2ec45bc76ddb5",
+        "signature": "e34f3f6159b1e23de9bb5521382795aaa5aaed6f53b4702e70a2ec45bc76ddb5"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts": {
+        "version": "c84107ce3522799b7a821463b1743ef230669093b2746afd1e817fcbb5885e67",
+        "signature": "c84107ce3522799b7a821463b1743ef230669093b2746afd1e817fcbb5885e67"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts": {
+        "version": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d",
+        "signature": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/lodash.camelcase/index.d.ts": {
+        "version": "8da7f785760bc7f2a6d7c06817868714a3ac83bc90cf22736191d795413382d0",
+        "signature": "8da7f785760bc7f2a6d7c06817868714a3ac83bc90cf22736191d795413382d0"
+      },
       "/home/martin/projects/cookbook/node_modules/@types/express/index.d.ts": {
         "version": "1f92cdebe2b1e0e6309ccdb6e8700cfd2d3e7131c7842f91b38ed1e4ff2a7090",
         "signature": "1f92cdebe2b1e0e6309ccdb6e8700cfd2d3e7131c7842f91b38ed1e4ff2a7090"
@@ -1592,6 +1660,42 @@
       "/home/martin/projects/cookbook/node_modules/@types/passport-local/index.d.ts": {
         "version": "e50f9ae34bb92232533e3a32848970dd04f874a8f64d3ae48980e062b6489f26",
         "signature": "e50f9ae34bb92232533e3a32848970dd04f874a8f64d3ae48980e062b6489f26"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/resolve/index.d.ts": {
+        "version": "2880728492d6a6baa55411d14cc42fa55714a24b1d1d27ff9a8a610abd47c761",
+        "signature": "2880728492d6a6baa55411d14cc42fa55714a24b1d1d27ff9a8a610abd47c761"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/node_modules/rollup/dist/rollup.d.ts": {
+        "version": "8db87f1a11acf41035f806b3a09bf144f3d0f2e3fd8faf818db733a5ad67a494",
+        "signature": "8db87f1a11acf41035f806b3a09bf144f3d0f2e3fd8faf818db733a5ad67a494"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/index.d.ts": {
+        "version": "2af7b9a2efb66b0c789e0ed8ba95c72c20011322871ccebc6ee37f5f0360bf02",
+        "signature": "2af7b9a2efb66b0c789e0ed8ba95c72c20011322871ccebc6ee37f5f0360bf02"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-builtins/node_modules/rollup/dist/rollup.d.ts": {
+        "version": "8db87f1a11acf41035f806b3a09bf144f3d0f2e3fd8faf818db733a5ad67a494",
+        "signature": "8db87f1a11acf41035f806b3a09bf144f3d0f2e3fd8faf818db733a5ad67a494"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-builtins/index.d.ts": {
+        "version": "a13b59bc2b92c0dc044ffbedc8a30ddfff3989eefb35a62a2f3b483106007a88",
+        "signature": "a13b59bc2b92c0dc044ffbedc8a30ddfff3989eefb35a62a2f3b483106007a88"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-globals/node_modules/rollup/dist/rollup.d.ts": {
+        "version": "8db87f1a11acf41035f806b3a09bf144f3d0f2e3fd8faf818db733a5ad67a494",
+        "signature": "8db87f1a11acf41035f806b3a09bf144f3d0f2e3fd8faf818db733a5ad67a494"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-globals/index.d.ts": {
+        "version": "b98b570be63b77331daeef68d8eafe0732fe71277501920c502e516bb4f369c3",
+        "signature": "b98b570be63b77331daeef68d8eafe0732fe71277501920c502e516bb4f369c3"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-sourcemaps/node_modules/rollup/dist/rollup.d.ts": {
+        "version": "8db87f1a11acf41035f806b3a09bf144f3d0f2e3fd8faf818db733a5ad67a494",
+        "signature": "8db87f1a11acf41035f806b3a09bf144f3d0f2e3fd8faf818db733a5ad67a494"
+      },
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-sourcemaps/index.d.ts": {
+        "version": "8617eaaeff76078c7dfafa431a2a5478a1f13eb43f085e9fe11a34ca734f8166",
+        "signature": "8617eaaeff76078c7dfafa431a2a5478a1f13eb43f085e9fe11a34ca734f8166"
       },
       "/home/martin/projects/cookbook/node_modules/@types/stack-utils/index.d.ts": {
         "version": "41422586881bcd739b4e62d9b91cd29909f8572aa3e3cdf316b7c50f14708d49",
@@ -3802,25 +3906,39 @@
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/martin/projects/cookbook/packages/common/dist/src/utils/types.d.ts": [
+      "/home/martin/projects/cookbook/packages/common/dist/types/utils/types.d.ts": [
         "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/martin/projects/cookbook/packages/common/dist/src/responses/formatGrpsResponse.d.ts": [
+      "/home/martin/projects/cookbook/packages/common/dist/types/responses/formatGrpsResponse.d.ts": [
         "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
-        "/home/martin/projects/cookbook/packages/common/dist/src/utils/types.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/types/utils/types.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/martin/projects/cookbook/packages/common/dist/src/utils/GrpcErrors.d.ts": [
-        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
+      "/home/martin/projects/cookbook/packages/common/dist/types/pipes/validation.pipe.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/martin/projects/cookbook/packages/common/dist/src/filters/grpcException.filter.d.ts": [
+      "/home/martin/projects/cookbook/packages/common/dist/types/filters/grpcException.filter.d.ts": [
         "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/rxjs/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/packages/common/dist/types/utils/GrpcErrors.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/packages/common/dist/types/index.d.ts": [
+        "/home/martin/projects/cookbook/packages/common/dist/types/responses/formatGrpsResponse.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/types/pipes/validation.pipe.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/types/filters/grpcException.filter.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/types/utils/GrpcErrors.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/types/utils/types.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -3870,7 +3988,7 @@
       ],
       "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts": [
         "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
-        "/home/martin/projects/cookbook/packages/common/dist/src/utils/GrpcErrors.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/types/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/@nestjs/mongoose/index.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/src/app.controller.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
@@ -3880,9 +3998,7 @@
         "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/@nestjs/microservices/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
-        "/home/martin/projects/cookbook/packages/common/dist/src/responses/formatGrpsResponse.d.ts",
-        "/home/martin/projects/cookbook/packages/common/dist/src/utils/GrpcErrors.d.ts",
-        "/home/martin/projects/cookbook/packages/common/dist/src/filters/grpcException.filter.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/types/index.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
@@ -3988,6 +4104,10 @@
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/home/martin/projects/cookbook/node_modules/@types/estree/index.d.ts": [
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/home/martin/projects/cookbook/node_modules/@types/minimatch/index.d.ts": [
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
@@ -4037,6 +4157,219 @@
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash.camelcase/index.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/home/martin/projects/cookbook/node_modules/@types/express/index.d.ts": [
         "/home/martin/projects/cookbook/node_modules/@types/body-parser/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/@types/serve-static/index.d.ts",
@@ -4060,6 +4393,59 @@
         "/home/martin/projects/cookbook/node_modules/@types/passport-strategy/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/@types/express/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/@types/passport/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/resolve/index.d.ts": [
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/node_modules/rollup/dist/rollup.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/estree/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/events.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/index.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/node_modules/rollup/dist/rollup.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-builtins/node_modules/rollup/dist/rollup.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/estree/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/events.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-builtins/index.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/node_modules/rollup/dist/rollup.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-globals/node_modules/rollup/dist/rollup.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/estree/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/events.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-globals/index.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/node_modules/rollup/dist/rollup.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-sourcemaps/node_modules/rollup/dist/rollup.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/estree/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/events.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-sourcemaps/index.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/node_modules/rollup/dist/rollup.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/index.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -6263,25 +6649,39 @@
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/martin/projects/cookbook/packages/common/dist/src/utils/types.d.ts": [
+      "/home/martin/projects/cookbook/packages/common/dist/types/utils/types.d.ts": [
         "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/martin/projects/cookbook/packages/common/dist/src/responses/formatGrpsResponse.d.ts": [
+      "/home/martin/projects/cookbook/packages/common/dist/types/responses/formatGrpsResponse.d.ts": [
         "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
-        "/home/martin/projects/cookbook/packages/common/dist/src/utils/types.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/types/utils/types.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/martin/projects/cookbook/packages/common/dist/src/utils/GrpcErrors.d.ts": [
-        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
+      "/home/martin/projects/cookbook/packages/common/dist/types/pipes/validation.pipe.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/martin/projects/cookbook/packages/common/dist/src/filters/grpcException.filter.d.ts": [
+      "/home/martin/projects/cookbook/packages/common/dist/types/filters/grpcException.filter.d.ts": [
         "/home/martin/projects/cookbook/node_modules/@nestjs/common/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/rxjs/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/packages/common/dist/types/utils/GrpcErrors.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/packages/common/dist/types/index.d.ts": [
+        "/home/martin/projects/cookbook/packages/common/dist/types/responses/formatGrpsResponse.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/types/pipes/validation.pipe.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/types/filters/grpcException.filter.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/types/utils/GrpcErrors.d.ts",
+        "/home/martin/projects/cookbook/packages/common/dist/types/utils/types.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -6423,6 +6823,10 @@
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/home/martin/projects/cookbook/node_modules/@types/estree/index.d.ts": [
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/home/martin/projects/cookbook/node_modules/@types/minimatch/index.d.ts": [
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
@@ -6472,6 +6876,219 @@
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/lodash.camelcase/index.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/home/martin/projects/cookbook/node_modules/@types/express/index.d.ts": [
         "/home/martin/projects/cookbook/node_modules/@types/body-parser/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/@types/serve-static/index.d.ts",
@@ -6495,6 +7112,59 @@
         "/home/martin/projects/cookbook/node_modules/@types/passport-strategy/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/@types/express/index.d.ts",
         "/home/martin/projects/cookbook/node_modules/@types/passport/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/resolve/index.d.ts": [
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/node_modules/rollup/dist/rollup.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/estree/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/events.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/index.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/node_modules/rollup/dist/rollup.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-builtins/node_modules/rollup/dist/rollup.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/estree/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/events.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-builtins/index.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/node_modules/rollup/dist/rollup.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-globals/node_modules/rollup/dist/rollup.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/estree/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/events.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-globals/index.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/node_modules/rollup/dist/rollup.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-sourcemaps/node_modules/rollup/dist/rollup.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/estree/index.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/events.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-sourcemaps/index.d.ts": [
+        "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/node_modules/rollup/dist/rollup.d.ts",
+        "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/index.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/util.d.ts",
         "/home/martin/projects/cookbook/packages/micro-email/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -6884,10 +7554,12 @@
       "/home/martin/projects/cookbook/node_modules/@types/long/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/bytebuffer/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/grpc/index.d.ts",
-      "/home/martin/projects/cookbook/packages/common/dist/src/utils/types.d.ts",
-      "/home/martin/projects/cookbook/packages/common/dist/src/responses/formatGrpsResponse.d.ts",
-      "/home/martin/projects/cookbook/packages/common/dist/src/utils/GrpcErrors.d.ts",
-      "/home/martin/projects/cookbook/packages/common/dist/src/filters/grpcException.filter.d.ts",
+      "/home/martin/projects/cookbook/packages/common/dist/types/utils/types.d.ts",
+      "/home/martin/projects/cookbook/packages/common/dist/types/responses/formatGrpsResponse.d.ts",
+      "/home/martin/projects/cookbook/packages/common/dist/types/pipes/validation.pipe.d.ts",
+      "/home/martin/projects/cookbook/packages/common/dist/types/filters/grpcException.filter.d.ts",
+      "/home/martin/projects/cookbook/packages/common/dist/types/utils/GrpcErrors.d.ts",
+      "/home/martin/projects/cookbook/packages/common/dist/types/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts",
       "/home/martin/projects/cookbook/node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts",
       "/home/martin/projects/cookbook/node_modules/@nestjs/mongoose/dist/common/index.d.ts",
@@ -6896,6 +7568,7 @@
       "/home/martin/projects/cookbook/node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
       "/home/martin/projects/cookbook/node_modules/@nestjs/mongoose/dist/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@nestjs/mongoose/index.d.ts",
+      "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts",
       "/home/martin/projects/cookbook/packages/micro-email/src/app.controller.ts",
       "/home/martin/projects/cookbook/packages/micro-email/src/schemas/email.schema.ts",
       "/home/martin/projects/cookbook/packages/micro-email/src/app.module.ts",
@@ -6914,6 +7587,7 @@
       "/home/martin/projects/cookbook/node_modules/@types/babel__template/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/babel__core/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/cookiejar/index.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/estree/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/minimatch/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/glob/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/istanbul-lib-coverage/index.d.ts",
@@ -6924,17 +7598,39 @@
       "/home/martin/projects/cookbook/node_modules/jest-diff/build/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/jest/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/json5/index.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/lodash/ts3.1/index.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/lodash.camelcase/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/express/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/passport/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/passport-strategy/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/passport-local/index.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/resolve/index.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/node_modules/rollup/dist/rollup.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-json/index.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-builtins/node_modules/rollup/dist/rollup.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-builtins/index.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-globals/node_modules/rollup/dist/rollup.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-node-globals/index.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-sourcemaps/node_modules/rollup/dist/rollup.d.ts",
+      "/home/martin/projects/cookbook/node_modules/@types/rollup-plugin-sourcemaps/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/stack-utils/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/superagent/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/supertest/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/validator/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/yargs-parser/index.d.ts",
-      "/home/martin/projects/cookbook/node_modules/@types/yargs/index.d.ts",
-      "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts"
+      "/home/martin/projects/cookbook/node_modules/@types/yargs/index.d.ts"
     ]
   },
   "version": "3.4.3"

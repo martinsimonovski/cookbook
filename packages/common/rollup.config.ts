@@ -25,9 +25,17 @@ export default {
     ],
     // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
     external: [
+        // 'websocket',
+        // 'sockjs-client',
+        // 'axios',
+        // 'crypto',
         'grpc',
         '@nestjs/common',
-        '@nestjs/microservices'
+        '@nestjs/microservices',
+        'class-transformer',
+        'class-validator',
+        'rxjs',
+
     ],
     watch: {
         include: [
