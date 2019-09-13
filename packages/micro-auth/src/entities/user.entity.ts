@@ -7,6 +7,7 @@ interface IUser {
     email: string;
     password: string;
     role: number;
+    valid: boolean;
 }
 
 @Entity()
@@ -38,17 +39,24 @@ export class User {
     })
     role: number;
 
+    @Column({
+        default: false
+    })
+    valid: boolean;
+
     constructor(user: IUser = {
         id: null,
         username: "",
         password: "",
         email: "",
-        role: 0
+        role: 0,
+        valid: false
     }) {
         this.id = user.id;
         this.username = user.username;
         this.password = user.password;
         this.email = user.email;
         this.role = user.role;
+        this.valid = user.valid;
     }
 }

@@ -5,16 +5,9 @@ import { ExceptionFilter, grpcResponse, GrpcInternalError } from '@cookbook/comm
 import { AuthService } from './auth.service';
 import { User } from './entities';
 import { join } from 'path';
-import { Observable } from 'rxjs';
 
-interface EmailService {
-    register(data: {
-        from: string;
-        to: string | string[];
-        subject: string;
-        text: string;
-        html: string;
-    }): Observable<any>;
+interface VerifyEmail {
+    token: string;
 }
 
 @Controller()
@@ -31,15 +24,8 @@ export class AuthController {
     })
     client: ClientGrpc;
 
-    private emailService;
 
-    constructor(private readonly authService: AuthService) {
-        console.log(__dirname + '/**/*.entity{.ts,.js}');
-    }
-
-    onModuleInit() {
-        this.emailService = this.client.getService<EmailService>('EmailService')
-    }
+    constructor(private readonly authService: AuthService) { }
 
     @UseFilters(new ExceptionFilter())
     @GrpcMethod('AuthService', 'Register')
@@ -55,5 +41,16 @@ export class AuthController {
         } else {
             throw new GrpcInternalError('Email problem', sent);
         }
+    }
+
+    @UseFilters(new ExceptionFilter())
+    @GrpcMethod('AuthService', 'VerifyEmail')
+    async verifyEmail(data: VerifyEmail, metadata: grpc.Metadata) {
+        const user: any = await this.authService.verifyEmail(data.token).then(r => r);
+        if (user.status === 0) {
+            return grpcResponse(0);
+        }
+
+        return new GrpcInternalError('There was a problem with verification');
     }
 }

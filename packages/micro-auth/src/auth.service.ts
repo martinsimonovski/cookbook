@@ -1,4 +1,4 @@
-import { Injectable, Logger } from '@nestjs/common';
+import { Injectable, Logger, UseFilters } from '@nestjs/common';
 import { Repository, getRepository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import * as cryptoRandomString from 'crypto-random-string';
@@ -6,7 +6,7 @@ import * as nodemailer from 'nodemailer';
 import * as doetnv from 'dotenv';
 import { Observable } from 'rxjs';
 import { ClientGrpc, Transport, Client } from '@nestjs/microservices';
-import { GrpcAlreadyExistError, GrpcAbortedError } from '@cookbook/common';
+import { GrpcAlreadyExistError, GrpcAbortedError, GrpcInternalError, ExceptionFilter } from '@cookbook/common';
 import { User, EmailVerification, ConsentRegistry } from './entities';
 import { join } from 'path';
 
@@ -107,7 +107,6 @@ export class AuthService {
             }
         );
         try {
-
             return this.concentRegistryRepository.save(newConsent);
         } catch (e) {
             throw new GrpcAbortedError('Save user consent');
@@ -136,8 +135,11 @@ export class AuthService {
                 to: [email],
                 subject: 'Verify Email',
                 text: 'Verify Email',
-                html: 'Hi! <br><br> Thanks for your registration<br><br>' +
-                    '<a href="http://localhost:3000/auth/email/verify/' + ev.emailToken + '>Click here to activate your account</a>'  // html body
+                html: `
+                    Apollo has landed!
+                    The secret is "${ev.emailToken}"
+                    <a href="http://localhost:3000/auth/email/verify/${ev.emailToken}">Activate</a>
+                `
             };
 
             return await this.emailService.send(mailOptions).toPromise().then(result => {
@@ -153,5 +155,31 @@ export class AuthService {
 
     private generateVerificationToken() {
         return cryptoRandomString({ length: 10 });
+    }
+
+    @UseFilters(new ExceptionFilter())
+    public async verifyEmail(token: string) {
+        let emailVerif;
+        try {
+            emailVerif = await this.emailVerificationRepository.findOne({ emailToken: token }).then(r => r, e => {
+                console.warn('===>> here', e);
+            });
+        } catch (e) {
+            return new GrpcInternalError('Email has no pending registration.');
+        }
+
+        if (emailVerif && emailVerif.email) {
+            let userFromDb = await this.userRepository.findOne({ email: emailVerif.email });
+            if (userFromDb) {
+                userFromDb.valid = true;
+                let savedUser = await this.userRepository.save(userFromDb).then(r => r);
+                await this.emailVerificationRepository.delete(emailVerif.id);
+                return !!savedUser;
+            }
+
+            return new GrpcInternalError('Email has no pending registration.');
+        } else {
+            return new GrpcInternalError('Email has no pending registration.');
+        }
     }
 }

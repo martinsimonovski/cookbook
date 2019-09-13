@@ -7568,6 +7568,7 @@
       "/home/martin/projects/cookbook/node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
       "/home/martin/projects/cookbook/node_modules/@nestjs/mongoose/dist/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@nestjs/mongoose/index.d.ts",
+      "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts",
       "/home/martin/projects/cookbook/packages/micro-email/src/app.controller.ts",
       "/home/martin/projects/cookbook/packages/micro-email/src/schemas/email.schema.ts",
       "/home/martin/projects/cookbook/packages/micro-email/src/app.module.ts",
@@ -7629,8 +7630,7 @@
       "/home/martin/projects/cookbook/node_modules/@types/supertest/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/validator/index.d.ts",
       "/home/martin/projects/cookbook/node_modules/@types/yargs-parser/index.d.ts",
-      "/home/martin/projects/cookbook/node_modules/@types/yargs/index.d.ts",
-      "/home/martin/projects/cookbook/packages/micro-email/src/app.service.ts"
+      "/home/martin/projects/cookbook/node_modules/@types/yargs/index.d.ts"
     ]
   },
   "version": "3.4.3"
