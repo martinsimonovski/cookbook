@@ -27,6 +27,7 @@ export class User {
     @BeforeInsert()
     hashPassword() {
         this.password = crypto.createHmac('sha256', this.password).digest('hex');
+        console.warn('hashing password', this.password);
     }
 
     @Column()

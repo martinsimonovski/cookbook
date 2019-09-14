@@ -1,13 +1,18 @@
 import { Controller, Logger, UseFilters } from '@nestjs/common';
 import { GrpcMethod, ClientGrpc, Client, Transport } from '@nestjs/microservices';
 import * as grpc from 'grpc';
-import { ExceptionFilter, grpcResponse, GrpcInternalError } from '@cookbook/common';
+import { ExceptionFilter, grpcResponse, GrpcInternalError, GrpcCanceledError } from '@cookbook/common';
 import { AuthService } from './auth.service';
 import { User } from './entities';
 import { join } from 'path';
 
 interface VerifyEmail {
     token: string;
+}
+
+interface Login {
+    email: string;
+    password: string;
 }
 
 @Controller()
@@ -52,5 +57,15 @@ export class AuthController {
         }
 
         return new GrpcInternalError('There was a problem with verification');
+    }
+
+    @UseFilters(new ExceptionFilter())
+    @GrpcMethod('AuthService', 'Login')
+    async login(data: Login) {
+        let response = await this.authService.validateLogin(data.email, data.password).then(r => r, e => {
+            console.warn({ e })
+        });
+        return grpcResponse(response);
+
     }
 }

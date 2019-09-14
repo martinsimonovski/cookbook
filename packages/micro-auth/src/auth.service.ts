@@ -1,4 +1,4 @@
-import { Injectable, Logger, UseFilters } from '@nestjs/common';
+import { Injectable, Logger, UseFilters, Inject } from '@nestjs/common';
 import { Repository, getRepository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import * as cryptoRandomString from 'crypto-random-string';
@@ -6,9 +6,13 @@ import * as nodemailer from 'nodemailer';
 import * as doetnv from 'dotenv';
 import { Observable } from 'rxjs';
 import { ClientGrpc, Transport, Client } from '@nestjs/microservices';
-import { GrpcAlreadyExistError, GrpcAbortedError, GrpcInternalError, ExceptionFilter } from '@cookbook/common';
+import * as bcrypt from 'bcryptjs';
+import { GrpcAlreadyExistError, GrpcAbortedError, GrpcInternalError, ExceptionFilter, GrpcNotFoundError, GrpcUnauthenticatedError, GrpcPermissionDeniedError } from '@cookbook/common';
 import { User, EmailVerification, ConsentRegistry } from './entities';
 import { join } from 'path';
+import { JwtService } from '@nestjs/jwt';
+
+const saltRounds = 10;
 
 interface EmailService {
     register(data: {
@@ -40,15 +44,11 @@ export class AuthService {
         @InjectRepository(User) private userRepository: Repository<User>,
         @InjectRepository(EmailVerification) private emailVerificationRepository: Repository<EmailVerification>,
         @InjectRepository(ConsentRegistry) private concentRegistryRepository: Repository<ConsentRegistry>,
+        private jwtService: JwtService
     ) { }
 
     onModuleInit() {
         this.emailService = this.client.getService<EmailService>('EmailService')
-    }
-
-    public async register(user: User): Promise<User> {
-        this.logger.log('registerFN()')
-        return await this.userRepository.save(user);
     }
 
     public async createNewUser(user: User): Promise<User> {
@@ -60,11 +60,11 @@ export class AuthService {
         const userRegisterd = await qb.getOne();
 
         if (!userRegisterd) {
+            user.password = await bcrypt.hash(user.password, saltRounds);
             return await this.userRepository.save(user);
         } else {
             return userRegisterd;
         }
-        // insert throw errors
     }
 
     public async createEmailToken(email: string): Promise<EmailVerification> {
@@ -180,6 +180,29 @@ export class AuthService {
             return new GrpcInternalError('Email has no pending registration.');
         } else {
             return new GrpcInternalError('Email has no pending registration.');
+        }
+    }
+
+    @UseFilters(new ExceptionFilter())
+    public async validateLogin(email: string, password: string) {
+        let userFromDb: User = await this.userRepository.findOne({ email: email }).then(r => r, e => console.error(e)) as User;
+        if (!userFromDb) {
+            throw new GrpcNotFoundError('User not found');
+        }
+
+        if (!userFromDb.valid) {
+            throw new GrpcUnauthenticatedError('Email not verified');
+        }
+
+        const isValidPass = await bcrypt.compare(password, userFromDb.password)
+        if (isValidPass) {
+            const { password, ...user } = userFromDb;
+            const payload = { sub: user.id, ...user };
+            return {
+                token: this.jwtService.sign(payload)
+            };
+        } else {
+            throw new GrpcPermissionDeniedError('User UNAUTHORIZED');
         }
     }
 }

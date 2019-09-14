@@ -1,8 +1,10 @@
-import { Module, Logger } from '@nestjs/common';
+import { Module } from '@nestjs/common';
 import { AuthController } from './auth.controller';
 import { AuthService } from './auth.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { User, EmailVerification, ConsentRegistry } from './entities';
+import { PassportModule } from '@nestjs/passport';
+import { JwtModule } from '@nestjs/jwt';
 
 @Module({
     imports: [
@@ -16,19 +18,18 @@ import { User, EmailVerification, ConsentRegistry } from './entities';
             entities: [__dirname + '/**/*.entity{.ts,.js}'],
             synchronize: true,
         }),
-        TypeOrmModule.forFeature([User, EmailVerification, ConsentRegistry])
+        TypeOrmModule.forFeature([User, EmailVerification, ConsentRegistry]),
+        PassportModule,
+        JwtModule.register({
+            secret: 'secret',
+            signOptions: { expiresIn: '60s' },
+        }),
     ],
     controllers: [
         AuthController
     ],
     providers: [
-        AuthService
+        AuthService,
     ],
 })
-export class AuthModule {
-    logger = new Logger('AuthModule');
-    constructor() {
-
-        this.logger.log(__dirname + '/**/*.entity{.ts,.js}', '=====>')
-    }
-}
+export class AuthModule { }

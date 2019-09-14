@@ -7,7 +7,7 @@ import "google/protobuf/any.any";
 
 service AuthService {
     rpc Register(User) returns (Response) {}
-    rpc Login(User) returns (Response) {}
+    rpc Login(Login) returns (LoginResponse) {}
     rpc VerifyEmail(Verify) returns (VerifyResponse) {}
 }
 
@@ -24,6 +24,11 @@ message User {
   string password = 4;
   string confirmPassword = 5;
   Role role = 6;
+}
+
+message Login {
+  string email = 1;
+  string password = 2;
 }
 
 message Verify {
@@ -52,4 +57,16 @@ message VerifyResponse {
   bytes error = 5;
 }
   
+message LoginResponse {
+  string action = 1;
+  int32 status = 2;
+  string message = 3;
+  LoginData data = 4;
+  bytes error = 5;
+}
+
+message LoginData {
+  string token = 1;
+}
+
 message Empty {}

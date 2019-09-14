@@ -1,3 +1,3 @@
-export { User } from './user.entity';
-export { EmailVerification } from './emailVerification.entity';
-export { ConsentRegistry } from './consentRegistry.entity';
+export * from './user.entity';
+export * from './emailVerification.entity';
+export * from './consentRegistry.entity';
