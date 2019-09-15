@@ -68,4 +68,10 @@ export class AuthController {
         return grpcResponse(response);
 
     }
+
+    // resend verification
+
+    // forgot password
+
+    // reset password
 }

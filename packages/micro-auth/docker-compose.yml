@@ -16,11 +16,11 @@ services:
     volumes:
       - micro-auth-mysql:/var/lib/mysql
     networks:
-      - hub
+      - local
 
 volumes:
   micro-auth-mysql:
 
 networks:
-  hub:
+  local:
     driver: 'bridge'

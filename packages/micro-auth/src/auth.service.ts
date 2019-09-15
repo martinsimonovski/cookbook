@@ -205,4 +205,14 @@ export class AuthService {
             throw new GrpcPermissionDeniedError('User UNAUTHORIZED');
         }
     }
+
+    @UseFilters(new ExceptionFilter())
+    public async sendEmailForgotPassword(email: string): Promise<boolean> {
+        let user = await this.userRepository.findOne({ email: email }).then(r => r);
+        if (!user) {
+            throw new GrpcNotFoundError('The email does not exist');
+        }
+
+        return true;
+    }
 }

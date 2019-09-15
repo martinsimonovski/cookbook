@@ -1,0 +1,24 @@
+version: '3.7'
+
+services:
+  cookbook-eventstore-db:
+    image: postgres:10.5
+    container_name: cookbook-eventstore-db
+    restart: always
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-admin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-admin}
+      POSTGRES_DB: ${POSTGRES_DB:-eventstore}
+    volumes:
+      - eventstore-postgres:/var/lib/postgresql/data
+    networks:
+      - local
+
+volumes:
+  eventstore-postgres:
+
+networks:
+  local:
+    driver: 'bridge'
