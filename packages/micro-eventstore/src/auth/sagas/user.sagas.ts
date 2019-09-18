@@ -1,6 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { Observable } from 'rxjs';
-import { ICommand, ofType } from '@nestjs/cqrs';
+import { ICommand, ofType, Saga } from '@nestjs/cqrs';
 import { UserCreatedEvent } from '../events/impl/user-created.event';
 import { delay, map } from 'rxjs/operators';
 
@@ -13,14 +13,17 @@ export class KillDragonCommand {
 
 @Injectable()
 export class UsersSagas {
+    @Saga()
     userCreated = (events$: Observable<any>): Observable<ICommand> => {
+        console.log('Kill Dragon ====> ');
         return events$
             .pipe(
                 ofType(UserCreatedEvent),
                 delay(1000),
                 map(event => {
                     Logger.log('Inside [UsersSagas] Saga', 'UsersSagas');
-                    return new KillDragonCommand('123', '456');
+                    return null;
+                    // return new KillDragonCommand('123', '456');
                 })
             )
     }

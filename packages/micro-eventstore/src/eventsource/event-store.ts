@@ -23,6 +23,7 @@ export class EventStore implements IEventPublisher, IMessageSource {
     private category: string;
 
     constructor(@Inject('EVENT_STORE_PROVIDER') eventStore: any) {
+        console.log('--->>', eventStore)
         this.category = 'users';
         this.eventStore = eventStore;
         this.eventStore.connect({
@@ -34,6 +35,7 @@ export class EventStore implements IEventPublisher, IMessageSource {
     }
 
     async publish<T extends IEvent>(event: T) {
+        console.log('===XXX')
         const message = JSON.parse(JSON.stringify(event));
         const userId = message.userId || message.userDto.userId;
         const streamName = `${this.category}-${userId}`;
@@ -51,8 +53,9 @@ export class EventStore implements IEventPublisher, IMessageSource {
      */
     async bridgeEventsTo<T extends IEvent>(subject: Subject<T>) {
         const streamName = `$ce-${this.category}`;
-
+        console.log("bridgeEventsTo");
         const onEvent = async (event) => {
+            console.log("======>>>>>> event", event);
             const eventUrl = eventStoreHostUrl +
                 `${event.metadata.$o}/${event.data.split('@')[0]}`;
             http.get(eventUrl, (res) => {

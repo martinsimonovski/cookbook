@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { CommandBus } from '@nestjs/cqrs';
-import { CreateUserDto } from 'auth/dtos/user.dto';
-import { CreateUserCommand } from 'auth/commands/impl/create-user.command';
+import { CreateUserDto } from '../dtos/user.dto';
+import { CreateUserCommand } from '../commands/impl/create-user.command';
 
 @Injectable()
 export class AuthService {

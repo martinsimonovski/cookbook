@@ -8,7 +8,7 @@ import { AuthController } from './controllers/auth.controller';
 import { AuthService } from './services/auth.service';
 import { UserRepository } from './repository/user.repository';
 import { EventStoreModule } from '../eventsource/event-store.module';
-import { EventStore } from '../eventsource/event-store.class';
+import { EventStore } from '../eventsource/event-store';
 import { UserCreatedEvent } from './events/impl';
 
 @Module({
@@ -25,31 +25,31 @@ import { UserCreatedEvent } from './events/impl';
         UserRepository
     ]
 })
-export class AuthModule { }
-// implements OnModuleInit {
-//     constructor(
-//         private readonly moduleRef: ModuleRef,
-//         private readonly command$: CommandBus,
-//         private readonly event$: EventBus,
-//         private readonly usersSagas: UsersSagas,
-//         private readonly eventStore: EventStore,
-//     ) { }
+export class AuthModule
+    implements OnModuleInit {
+    constructor(
+        private readonly moduleRef: ModuleRef,
+        private readonly command$: CommandBus,
+        private readonly event$: EventBus,
+        private readonly usersSagas: UsersSagas,
+        private readonly eventStore: EventStore,
+    ) { }
 
-//     onModuleInit() {
-//         //   this.command$.setModuleRef(this.moduleRef);
-//         //   this.event$.set
+    onModuleInit() {
+        // this.command$.se
+        //   this.command$.setModuleRef(this.moduleRef);
+        //   this.event$.setModuleRef
 
-//         this.eventStore.setEventHandlers(this.eventHandlers);
-//         this.eventStore.bridgeEventsTo((this.event$ as any).subject$);
-//         this.event$.publisher = this.eventStore;
+        this.eventStore.setEventHandlers(this.eventHandlers);
+        this.eventStore.bridgeEventsTo((this.event$ as any).subject$);
+        this.event$.publisher = this.eventStore;
 
-//         this.event$.register(EventHandlers);
-//         this.command$.register(CommandHandlers);
-//         this.event$.combineSagas([this.usersSagas.userCreated])
+        this.event$.register(EventHandlers);
+        this.command$.register(CommandHandlers);
+        // this.event$
+    }
 
-//     }
-
-//     eventHandlers = {
-//         UserCreatedEvent: (data) => new UserCreatedEvent(data)
-//     }
-// }
+    eventHandlers = {
+        UserCreatedEvent: (data) => new UserCreatedEvent(data)
+    }
+}
