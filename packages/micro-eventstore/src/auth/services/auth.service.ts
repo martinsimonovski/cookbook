@@ -7,10 +7,26 @@ import { CreateUserCommand } from '../commands/impl/create-user.command';
 export class AuthService {
     constructor(private readonly commandBus: CommandBus) { }
 
-    public async createNewUser(user: CreateUserDto) {
+    public async register(user: CreateUserDto) {
         return await this.commandBus.execute(
             new CreateUserCommand(user)
         );
     }
+
+    //+ createEmailToken
+
+    //+ saveUserConsent
+
+    //+ sendEmailVerification
+
+    // check if emailVerificationIsFresh
+
+    // generateVerificationToken
+
+    //+ verifyEmail
+
+    // validateLogin
+
+    //+ sendEmailForgotPassword
 
 }

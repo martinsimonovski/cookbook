@@ -10,7 +10,7 @@ export class AuthController {
     async createUser(data: CreateUserDto): Promise<CreateUserDto> {
         let newUser = new CreateUserDto();
 
-        return this.authService.createNewUser({
+        return this.authService.register({
             id: null,
             email: 'huston@nasa.com',
             username: 'huston',
@@ -18,4 +18,17 @@ export class AuthController {
             confirmPassword: 'nasa'
         });
     }
+
+
+    // register
+
+    // login
+
+    // reset password
+
+    // verify password
 }
+
+
+// UserCreated
+// UserCreated

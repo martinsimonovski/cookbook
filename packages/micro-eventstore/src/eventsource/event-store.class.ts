@@ -25,4 +25,4 @@ export class EventStore {
         this.client.close();
         return this;
     }
-}
+} 
